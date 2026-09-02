@@ -182,6 +182,16 @@ svg {
   display: block;
 }
 
+.logo-clair {
+  display: none;
+}
+[data-theme="clair"] .logo-sombre {
+  display: none;
+}
+[data-theme="clair"] .logo-clair {
+  display: block;
+}
+
 .bouton {
   display: inline-flex;
   align-items: center;
