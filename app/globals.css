@@ -3,6 +3,8 @@
    Le mode clair est active via [data-theme="clair"] sur <html>. */
 
 :root {
+  --font-inter: "Inter", sans-serif;
+
   --fond: #0d0d0d;
   --surface: #151515;
   --surface-haute: #1c1c1c;

@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import ThemeScript from "@/components/ThemeScript";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
 
 const titre = "Shefar Dashboard";
 const description =
@@ -30,13 +23,13 @@ export const metadata: Metadata = {
     type: "website",
     title: titre,
     description,
-    images: ["/logo.png"],
+    images: ["/logo-sombre.png"],
   },
   twitter: {
     card: "summary",
     title: titre,
     description,
-    images: ["/logo.png"],
+    images: ["/logo-sombre.png"],
   },
   icons: {
     icon: "/icon.png",
@@ -45,8 +38,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="fr" className={inter.variable} suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font -- global font in the root layout, applies to every route */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        />
         <ThemeScript />
       </head>
       <body>{children}</body>
