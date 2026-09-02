@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="pied-corps">
           <div className="pied-marque">
             <Link className="marque" href="/app">
-              <Image src="/logo.svg" alt="Shefar" width={127} height={20} />
+              <Image src="/logo.png" alt="Shefar" width={127} height={26} />
             </Link>
             <p>Une lecture claire de votre performance digitale.</p>
           </div>

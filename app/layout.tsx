@@ -30,16 +30,16 @@ export const metadata: Metadata = {
     type: "website",
     title: titre,
     description,
-    images: ["/logo.svg"],
+    images: ["/logo.png"],
   },
   twitter: {
     card: "summary",
     title: titre,
     description,
-    images: ["/logo.svg"],
+    images: ["/logo.png"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.png",
   },
 };
 

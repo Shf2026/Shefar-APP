@@ -7,7 +7,7 @@ export default function Header() {
     <header className="entete">
       <div className="conteneur entete-corps">
         <Link className="marque" href="/app">
-          <Image src="/logo.svg" alt="Shefar" width={127} height={20} priority />
+          <Image src="/logo.png" alt="Shefar" width={127} height={26} priority />
         </Link>
         <nav className="entete-liens">
           <Link className="lien-masquable" href="/app">
