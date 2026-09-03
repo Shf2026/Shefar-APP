@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const titre = "Politique de confidentialite — Shefar Dashboard";
+const titre = "Privacy Policy — SHEFAR Dashboard";
 const description =
-  "Politique de confidentialite de Shefar Dashboard : donnees collectees, acces aux API Google, conformite Google API Services User Data Policy et Limited Use.";
+  "Privacy Policy for SHEFAR Dashboard: data collected, access to Google APIs, and compliance with the Google API Services User Data Policy and Limited Use requirements.";
 
 export const metadata: Metadata = {
   title: titre,
@@ -26,792 +26,625 @@ export default function PrivacyPage() {
       <main className="legal">
         <div className="conteneur texte-etroit">
           <div className="legal-entete">
-            <h1>Politique de confidentialite</h1>
-            <p className="legal-date">Derniere mise a jour : 2 septembre 2026</p>
+            <h1>Privacy Policy</h1>
+            <p className="legal-date">Last updated: September 3, 2026</p>
           </div>
 
           <p>
-            La presente Politique de confidentialite explique de maniere
-            detaillee comment Shefar Dashboard collecte, accede, utilise,
-            stocke, protege, partage et supprime les donnees lorsque vous
-            utilisez notre application, notamment lorsque vous connectez un
-            compte ou un service Google.
+            SHEFAR is committed to protecting the privacy and security of
+            its users and to being transparent about how data is accessed,
+            used, stored, shared, retained, and deleted.
           </p>
           <p>
-            Shefar Dashboard est une application web destinee aux
-            entreprises. Elle permet de connecter certains services Google,
-            notamment Google Ads et Google Business Profile, afin de
-            centraliser des donnees de performance dans un tableau de bord,
-            de suivre des indicateurs, d&apos;identifier des variations et de
-            faciliter le pilotage de la performance digitale.
+            SHEFAR Dashboard is a web application designed to help
+            businesses centralize and understand their digital performance
+            data. The application allows users to securely connect
+            supported Google services, including Google Ads and Google
+            Business Profile, through Google OAuth 2.0. When a user
+            connects a Google account, SHEFAR only accesses the information
+            that the user has explicitly authorized through the Google
+            authorization screen.
           </p>
           <p>
-            Cette politique s&apos;applique au site et a l&apos;application
-            Shefar Dashboard accessibles notamment depuis{" "}
-            <strong>shefar.fr</strong>.
+            This Privacy Policy explains how SHEFAR handles information
+            obtained through Google APIs and, in particular: the Google Ads
+            data accessed by SHEFAR; the Google Business Profile data
+            accessed by SHEFAR; why SHEFAR accesses this information; how
+            Google data is used within SHEFAR Dashboard; how this
+            information is stored and protected; whether information may
+            be processed by service providers; how long the information is
+            retained; how users can request deletion of their data; how
+            users can revoke SHEFAR&apos;s access to their Google Account;
+            and how SHEFAR complies with the Google API Services User Data
+            Policy, including the Limited Use requirements.
           </p>
 
-          <nav className="sommaire" aria-label="Sommaire">
-            <h2>Sommaire</h2>
+          <nav className="sommaire" aria-label="Table of contents">
+            <h2>Table of contents</h2>
             <ol>
-              <li><a href="#responsable">Responsable du traitement</a></li>
-              <li><a href="#donnees">Quelles donnees Shefar Dashboard peut collecter</a></li>
-              <li><a href="#oauth">Connexion avec Google OAuth 2.0</a></li>
-              <li><a href="#google">Donnees Google auxquelles Shefar Dashboard peut acceder</a></li>
-              <li><a href="#ads">Donnees Google Ads</a></li>
-              <li><a href="#business-profile">Donnees Google Business Profile</a></li>
-              <li><a href="#autres-services">Donnees provenant d&apos;autres services Google</a></li>
-              <li><a href="#pagespeed">Google PageSpeed Insights et donnees techniques</a></li>
-              <li><a href="#utilisation">Pourquoi Shefar Dashboard utilise les donnees Google</a></li>
-              <li><a href="#non-utilisation">Ce que Shefar ne fait pas avec les donnees Google</a></li>
-              <li><a href="#ia">Intelligence artificielle et donnees Google</a></li>
-              <li><a href="#base-juridique">Base juridique du traitement</a></li>
-              <li><a href="#jetons">Jetons OAuth et autorisations Google</a></li>
-              <li><a href="#limitation-acces">Limitation des acces</a></li>
-              <li><a href="#stockage">Stockage des donnees</a></li>
-              <li><a href="#securite">Mesures de securite</a></li>
-              <li><a href="#partage">Partage des donnees</a></li>
-              <li><a href="#vente">Absence de vente des donnees</a></li>
-              <li><a href="#conservation">Conservation des donnees</a></li>
-              <li><a href="#deconnexion">Deconnexion d&apos;un compte Google</a></li>
-              <li><a href="#suppression">Suppression des donnees</a></li>
-              <li><a href="#revocation">Revocation des autorisations Google</a></li>
-              <li><a href="#droits">Droits des utilisateurs</a></li>
-              <li><a href="#tiers">Donnees concernant des tiers</a></li>
-              <li><a href="#journaux">Journaux techniques et securite</a></li>
-              <li><a href="#cookies">Cookies et stockage local</a></li>
-              <li><a href="#transferts">Transferts internationaux</a></li>
-              <li><a href="#mineurs">Mineurs</a></li>
-              <li><a href="#google-policy">Google API Services User Data Policy</a></li>
-              <li><a href="#limited-use">Limited Use</a></li>
-              <li><a href="#modifications">Modification de cette Politique de confidentialite</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About SHEFAR Dashboard</a></li>
+              <li><a href="#oauth">Google Account Connection and OAuth 2.0</a></li>
+              <li><a href="#ads">Google Ads Data Accessed by SHEFAR</a></li>
+              <li><a href="#business-profile">Google Business Profile Data Accessed by SHEFAR</a></li>
+              <li><a href="#why">Why SHEFAR Accesses Google Data</a></li>
+              <li><a href="#how-used">How Google Data Is Used in SHEFAR Dashboard</a></li>
+              <li><a href="#security">Storage and Security of Google User Data</a></li>
+              <li><a href="#sharing">Sharing of Google User Data and Service Providers</a></li>
+              <li><a href="#human-access">Human Access to Google User Data</a></li>
+              <li><a href="#advertising-ai">Use of Google Data for Advertising, AI or Other Purposes</a></li>
+              <li><a href="#retention">Data Retention</a></li>
+              <li><a href="#deletion">How to Request Deletion of Google User Data</a></li>
+              <li><a href="#revoking">Revoking SHEFAR&apos;s Access to Your Google Account</a></li>
+              <li><a href="#disconnecting">Disconnecting a Google Service From SHEFAR</a></li>
+              <li><a href="#limited-use">Google API Services User Data Policy and Limited Use</a></li>
+              <li><a href="#user-control">User Control</a></li>
+              <li><a href="#other-info">Other Personal Information</a></li>
+              <li><a href="#international">International Processing and Service Providers</a></li>
+              <li><a href="#changes">Changes to This Privacy Policy</a></li>
+              <li><a href="#contact">Contact SHEFAR</a></li>
             </ol>
           </nav>
 
-          <article id="responsable">
-            <h2>1. Responsable du traitement</h2>
-            <p>Le service Shefar Dashboard est exploite par Shefar.</p>
+          <article id="about">
+            <h2>1. About SHEFAR Dashboard</h2>
             <p>
-              Pour toute question concernant la confidentialite,
-              l&apos;utilisation de vos donnees, l&apos;acces aux donnees
-              Google ou une demande de suppression :{" "}
-              <a href="mailto:support@shefar.fr">support@shefar.fr</a>
+              SHEFAR Dashboard is a digital performance management and
+              reporting application for businesses. Its purpose is to bring
+              information that would otherwise be distributed across
+              several services into a single, understandable interface.
             </p>
             <p>
-              Les demandes relatives a l&apos;exercice de vos droits ou a la
-              suppression de donnees peuvent etre adressees a cette meme
-              adresse.
-            </p>
-          </article>
-
-          <article id="donnees">
-            <h2>2. Quelles donnees Shefar Dashboard peut collecter</h2>
-            <p>
-              Les donnees traitees dependent des fonctionnalites utilisees et
-              des services que vous choisissez volontairement de connecter.
-              Shefar Dashboard ne cherche pas a collecter des donnees sans
-              rapport avec le fonctionnement de l&apos;application.
-            </p>
-            <h3>2.1 Donnees de compte Shefar Dashboard</h3>
-            <p>
-              Lorsque vous utilisez Shefar Dashboard, nous pouvons traiter
-              certaines informations necessaires a la creation, a
-              l&apos;administration et a la securisation de votre espace
-              utilisateur, telles que :
+              Depending on the services enabled by the user, SHEFAR
+              Dashboard may connect to Google services such as:
             </p>
             <ul>
-              <li>nom et prenom ;</li>
-              <li>adresse e-mail professionnelle ;</li>
-              <li>societe ou organisation associee au compte ;</li>
-              <li>identifiant interne du compte ;</li>
-              <li>date de creation du compte ;</li>
-              <li>parametres et preferences du compte ;</li>
-              <li>services connectes ;</li>
-              <li>informations techniques necessaires a la securite et a l&apos;authentification.</li>
+              <li>Google Ads;</li>
+              <li>Google Business Profile;</li>
+              <li>Google Analytics;</li>
+              <li>Google Search Console;</li>
+              <li>Google PageSpeed Insights;</li>
+              <li>Chrome UX Report and other supported Google services.</li>
             </ul>
             <p>
-              Ces informations permettent notamment d&apos;identifier
-              l&apos;utilisateur, de securiser son espace et de lui fournir
-              les fonctionnalites auxquelles il a acces.
+              The availability of a service does not mean that SHEFAR
+              automatically accesses it. A Google service is accessed only
+              when the user chooses to connect it and grants the
+              corresponding permissions through Google&apos;s authorization
+              process.
             </p>
           </article>
 
           <article id="oauth">
-            <h2>3. Connexion avec Google OAuth 2.0</h2>
+            <h2>2. Google Account Connection and OAuth 2.0</h2>
             <p>
-              Shefar Dashboard utilise Google OAuth 2.0 pour permettre aux
-              utilisateurs d&apos;autoriser l&apos;acces a certains services
-              Google.
+              SHEFAR uses Google OAuth 2.0 to request permission to access
+              Google services. When a user chooses to connect Google
+              services to SHEFAR Dashboard, the user is redirected to
+              Google&apos;s own authentication and authorization interface.
             </p>
-            <p>
-              Lors de la connexion, l&apos;utilisateur est redirige vers
-              Google. Google presente alors :
-            </p>
+            <p>The user can:</p>
             <ul>
-              <li>le nom de l&apos;application Shefar Dashboard ;</li>
-              <li>le compte Google utilise ;</li>
-              <li>les autorisations demandees ;</li>
-              <li>les services auxquels Shefar Dashboard souhaite acceder.</li>
+              <li>select the Google Account to connect;</li>
+              <li>review the permissions requested by SHEFAR;</li>
+              <li>choose which accounts or resources are available, where supported by Google;</li>
+              <li>accept or refuse the requested permissions.</li>
             </ul>
-            <p>
-              L&apos;utilisateur choisit lui-meme d&apos;autoriser ou de
-              refuser cet acces.
-            </p>
             <p>
               <strong>
-                Shefar Dashboard ne demande, ne collecte et ne stocke jamais
-                le mot de passe de votre compte Google.
+                SHEFAR does not ask users to provide their Google password
+                directly to SHEFAR. SHEFAR does not collect or store Google
+                Account passwords.
               </strong>{" "}
-              L&apos;authentification et l&apos;autorisation sont gerees
-              directement par Google.
-            </p>
-          </article>
-
-          <article id="google">
-            <h2>4. Donnees Google auxquelles Shefar Dashboard peut acceder</h2>
-            <p>
-              Lorsque vous connectez un service Google, Shefar Dashboard peut
-              acceder uniquement aux donnees necessaires aux fonctionnalites
-              activees et correspondant aux autorisations que vous avez
-              expressement accordees.
-            </p>
-            <h3>4.1 Informations relatives au compte Google</h3>
-            <p>
-              Lorsque cela est necessaire au fonctionnement de
-              l&apos;authentification, Shefar Dashboard peut recevoir des
-              informations permettant d&apos;identifier le compte connecte,
-              par exemple :
-            </p>
-            <ul>
-              <li>adresse e-mail du compte Google ;</li>
-              <li>identifiant du compte ;</li>
-              <li>informations de profil de base disponibles dans le cadre de l&apos;autorisation accordee ;</li>
-              <li>comptes ou ressources auxquels l&apos;utilisateur est autorise a acceder.</li>
-            </ul>
-            <p>
-              Ces informations servent notamment a associer correctement les
-              services Google au compte Shefar Dashboard concerne.
+              Authentication is handled directly by Google. SHEFAR receives
+              authorization credentials from Google allowing the
+              application to access only the Google data associated with
+              the permissions granted by the user. Users remain in control
+              of these permissions and may revoke them at any time.
             </p>
           </article>
 
           <article id="ads">
-            <h2>5. Donnees Google Ads</h2>
+            <h2>3. Google Ads Data Accessed by SHEFAR</h2>
             <p>
-              Lorsque l&apos;utilisateur connecte un compte Google Ads,
-              Shefar Dashboard peut acceder aux donnees necessaires a
-              l&apos;affichage et a l&apos;analyse des performances
-              publicitaires. Selon les fonctionnalites activees et les
-              donnees disponibles dans le compte Google Ads, celles-ci
-              peuvent comprendre notamment :
+              When a user connects Google Ads to SHEFAR Dashboard, SHEFAR
+              may access Google Ads information made available through the
+              Google Ads API and authorized by the user. Depending on the
+              connected account, permissions and features enabled, this
+              information may include:
             </p>
             <ul>
-              <li>identifiant du compte Google Ads ;</li>
-              <li>Customer ID ;</li>
-              <li>nom du compte ;</li>
-              <li>campagnes ;</li>
-              <li>groupes de campagnes ou groupes d&apos;annonces ;</li>
-              <li>annonces lorsque necessaire a l&apos;affichage des performances ;</li>
-              <li>budgets ;</li>
-              <li>depenses publicitaires ;</li>
-              <li>couts ;</li>
-              <li>impressions ;</li>
-              <li>clics ;</li>
-              <li>taux de clic ;</li>
-              <li>conversions ;</li>
-              <li>valeur des conversions lorsqu&apos;elle est disponible ;</li>
-              <li>taux de conversion ;</li>
-              <li>cout par conversion ;</li>
-              <li>periodes et dates associees aux performances ;</li>
-              <li>statuts des campagnes ;</li>
-              <li>autres indicateurs de performance necessaires au fonctionnement du tableau de bord.</li>
+              <li>accessible Google Ads accounts;</li>
+              <li>Google Ads customer identifiers;</li>
+              <li>campaigns;</li>
+              <li>campaign names and statuses;</li>
+              <li>advertising budgets;</li>
+              <li>impressions;</li>
+              <li>clicks;</li>
+              <li>advertising costs;</li>
+              <li>conversions;</li>
+              <li>conversion rates;</li>
+              <li>cost per conversion;</li>
+              <li>campaign performance metrics;</li>
+              <li>performance by date or reporting period;</li>
+              <li>historical performance information available through the API;</li>
+              <li>other reporting metrics required to display the user&apos;s Google Ads performance.</li>
             </ul>
             <p>
-              Ces donnees sont utilisees pour permettre a l&apos;utilisateur
-              de consulter et d&apos;analyser ses propres performances Google
-              Ads dans Shefar Dashboard.
+              SHEFAR accesses this information for reporting, monitoring,
+              analysis and dashboard functionality. SHEFAR does not access
+              Google Ads information that is unrelated to the features
+              provided to the user.
             </p>
           </article>
 
           <article id="business-profile">
-            <h2>6. Donnees Google Business Profile</h2>
+            <h2>4. Google Business Profile Data Accessed by SHEFAR</h2>
             <p>
-              Lorsque l&apos;utilisateur connecte Google Business Profile,
-              Shefar Dashboard peut acceder aux informations necessaires a la
-              gestion et a l&apos;analyse de la presence locale de
-              l&apos;entreprise. Selon les autorisations accordees et les
-              donnees disponibles, cela peut notamment comprendre :
+              When a user connects Google Business Profile, SHEFAR may
+              access information associated with the business locations
+              that the user is authorized to access. Depending on
+              Google&apos;s available APIs, the permissions granted by the
+              user and the SHEFAR modules enabled, this information may
+              include:
             </p>
             <ul>
-              <li>comptes Google Business Profile accessibles ;</li>
-              <li>etablissements associes au compte ;</li>
-              <li>identifiants d&apos;etablissements ;</li>
-              <li>nom commercial ;</li>
-              <li>adresse de l&apos;etablissement ;</li>
-              <li>coordonnees publiques ;</li>
-              <li>categories d&apos;activite ;</li>
-              <li>horaires ;</li>
-              <li>URL du site internet ;</li>
-              <li>informations publiques de la fiche etablissement ;</li>
-              <li>donnees et indicateurs de performance rendus disponibles par Google pour les etablissements ;</li>
-              <li>informations necessaires a l&apos;identification et a l&apos;affichage des etablissements dans Shefar Dashboard.</li>
+              <li>Google Business Profile accounts accessible by the user;</li>
+              <li>business locations associated with those accounts;</li>
+              <li>business or location identifiers;</li>
+              <li>business names;</li>
+              <li>public business information;</li>
+              <li>location information;</li>
+              <li>information displayed on the business profile;</li>
+              <li>local visibility information;</li>
+              <li>business performance information;</li>
+              <li>available engagement or performance metrics;</li>
+              <li>information used to monitor changes in local presence and visibility.</li>
             </ul>
             <p>
-              Shefar Dashboard utilise ces informations afin de centraliser
-              et presenter la visibilite locale de l&apos;entreprise dans son
-              espace utilisateur.
+              The exact information available may vary depending on the
+              Google APIs, the user&apos;s permissions and the features
+              available in SHEFAR Dashboard. SHEFAR only retrieves
+              information required to provide the Google Business Profile
+              features requested by the user.
             </p>
           </article>
 
-          <article id="autres-services">
-            <h2>7. Donnees provenant d&apos;autres services Google</h2>
+          <article id="why">
+            <h2>5. Why SHEFAR Accesses Google Data</h2>
             <p>
-              Shefar Dashboard peut integrer d&apos;autres services Google
-              lorsque ceux-ci sont necessaires a une fonctionnalite
-              clairement proposee a l&apos;utilisateur. Dans ce cas :
+              SHEFAR requests access to Google data exclusively to provide
+              the services and features selected by the user. Google data
+              may be accessed in order to:
             </p>
             <ul>
-              <li>l&apos;utilisateur est informe de la connexion ;</li>
-              <li>les autorisations correspondantes sont presentees par Google ;</li>
-              <li>seules les donnees necessaires a la fonctionnalite sont demandees ;</li>
-              <li>les donnees sont utilisees uniquement pour fournir la fonctionnalite concernee.</li>
+              <li>identify the connected Google Account;</li>
+              <li>identify Google accounts or business locations available to the user;</li>
+              <li>connect Google services to SHEFAR Dashboard;</li>
+              <li>retrieve Google Ads reporting data;</li>
+              <li>retrieve Google Business Profile information;</li>
+              <li>display performance indicators;</li>
+              <li>centralize information from several services;</li>
+              <li>compare performance over time;</li>
+              <li>identify significant changes in performance;</li>
+              <li>generate dashboard views;</li>
+              <li>display alerts or performance signals;</li>
+              <li>identify opportunities or areas requiring attention;</li>
+              <li>provide user-facing analysis;</li>
+              <li>refresh information displayed in the Dashboard;</li>
+              <li>help users understand and monitor their digital performance.</li>
             </ul>
             <p>
-              Shefar applique le principe de minimisation des autorisations
-              et ne demande pas l&apos;acces a des donnees Google uniquement
-              dans l&apos;eventualite d&apos;une utilisation future. Google
-              exige que les applications demandent uniquement les
-              permissions necessaires aux fonctionnalites reellement
-              proposees.
+              SHEFAR does not request Google permissions solely for future,
+              unrelated or undisclosed purposes. Permissions are intended
+              to remain limited to those necessary for the features
+              provided by SHEFAR Dashboard.
             </p>
           </article>
 
-          <article id="pagespeed">
-            <h2>8. Google PageSpeed Insights et donnees techniques</h2>
+          <article id="how-used">
+            <h2>6. How Google Data Is Used in SHEFAR Dashboard</h2>
             <p>
-              Shefar Dashboard peut egalement analyser des informations
-              techniques relatives aux pages web, notamment au moyen de
-              services tels que Google PageSpeed Insights. Ces analyses
-              peuvent porter sur :
+              Information obtained through Google APIs is primarily used to
+              create the user-facing features available in SHEFAR
+              Dashboard. For example, Google Ads data may be used to
+              display advertising spend, impressions, clicks, conversions,
+              conversion rates, cost per conversion, campaign trends,
+              performance variations, reporting periods and other relevant
+              advertising KPIs.
+            </p>
+            <p>
+              Google Business Profile data may be used to display connected
+              business locations, business information, local visibility
+              information, available performance metrics, changes in local
+              performance and indicators relating to the user&apos;s local
+              presence on Google.
+            </p>
+            <p>
+              SHEFAR may process these metrics to organize, compare and
+              interpret the information for the benefit of the user. For
+              example, the Dashboard may highlight an increase or decrease
+              in conversions, a significant change in advertising costs, a
+              change in campaign performance, a change in local visibility,
+              a change in the performance of a business location, an
+              unusual variation requiring review, or an opportunity or
+              priority identified from the available data.
+            </p>
+            <p>
+              The purpose of this processing is to make the information
+              easier for the user to understand and act upon. Google user
+              data is not accessed for unrelated purposes.
+            </p>
+          </article>
+
+          <article id="security">
+            <h2>7. Storage and Security of Google User Data</h2>
+            <p>
+              SHEFAR takes reasonable technical and organizational measures
+              designed to protect Google user data against unauthorized
+              access, unauthorized disclosure, accidental loss, alteration,
+              misuse, destruction and unlawful processing.
+            </p>
+            <p>
+              Access to systems processing Google user data is restricted
+              according to operational requirements. OAuth credentials and
+              authorization information are treated as sensitive
+              authentication information and are protected accordingly.
+              SHEFAR also takes measures to protect information during
+              transmission between Google services, SHEFAR&apos;s
+              infrastructure and the user&apos;s browser. SHEFAR does not
+              store the user&apos;s Google password.
+            </p>
+            <p>
+              Where Google information must be temporarily cached or stored
+              to provide Dashboard functionality, SHEFAR limits that
+              storage to what is necessary for the operation of the
+              service. No internet-based service can guarantee absolute
+              security. However, SHEFAR maintains safeguards intended to
+              provide an appropriate level of protection considering the
+              nature of the information processed.
+            </p>
+          </article>
+
+          <article id="sharing">
+            <h2>8. Sharing of Google User Data and Service Providers</h2>
+            <p>
+              SHEFAR does not sell Google user data. SHEFAR does not sell
+              Google API data to data brokers, advertising platforms or
+              information resellers. SHEFAR does not transfer Google user
+              data for third-party advertising, personalized advertising,
+              retargeting or interest-based advertising.
+            </p>
+            <p>
+              Google user data may be processed by carefully selected
+              technical service providers when this is necessary to
+              operate SHEFAR Dashboard. These providers may include, for
+              example:
             </p>
             <ul>
-              <li>performances d&apos;une page ;</li>
-              <li>temps de chargement ;</li>
-              <li>Core Web Vitals ;</li>
-              <li>indicateurs d&apos;experience utilisateur ;</li>
-              <li>metriques techniques ;</li>
-              <li>opportunites d&apos;optimisation.</li>
+              <li>hosting and infrastructure providers;</li>
+              <li>cloud service providers;</li>
+              <li>database or storage providers;</li>
+              <li>backup infrastructure providers;</li>
+              <li>security providers;</li>
+              <li>network, DNS or content-delivery providers;</li>
+              <li>monitoring and technical maintenance providers;</li>
+              <li>providers required for the secure operation of the application.</li>
             </ul>
             <p>
-              Lorsque ces informations sont obtenues a partir d&apos;une URL
-              publique et ne necessitent pas l&apos;acces a des donnees
-              privees d&apos;un compte Google, elles ne sont pas traitees
-              comme des donnees Google OAuth privees.
+              Such providers act only where necessary to deliver or protect
+              the SHEFAR service and are not authorized to use Google user
+              data for their own independent advertising or commercial
+              purposes. Where required, SHEFAR uses contractual, technical
+              and organizational safeguards intended to protect information
+              handled by these providers. SHEFAR may also disclose
+              information when required to comply with applicable law,
+              legal proceedings, regulatory obligations or valid requests
+              from competent authorities.
             </p>
           </article>
 
-          <article id="utilisation">
-            <h2>9. Pourquoi Shefar Dashboard utilise les donnees Google</h2>
+          <article id="human-access">
+            <h2>9. Human Access to Google User Data</h2>
             <p>
-              Les donnees obtenues via les API Google sont utilisees
-              exclusivement pour fournir ou ameliorer les fonctionnalites
-              visibles de Shefar Dashboard demandees par l&apos;utilisateur.
-              Elles peuvent notamment etre utilisees pour :
+              SHEFAR limits human access to Google user data. Employees,
+              contractors or service providers are not permitted to freely
+              access Google user information. Human access may occur only
+              where appropriate and necessary, including situations such
+              as:
             </p>
             <ul>
-              <li>connecter le compte Google de l&apos;utilisateur ;</li>
-              <li>identifier les comptes Google Ads accessibles ;</li>
-              <li>identifier les etablissements Google Business Profile accessibles ;</li>
-              <li>recuperer les donnees autorisees ;</li>
-              <li>afficher ces donnees dans Shefar Dashboard ;</li>
-              <li>centraliser plusieurs indicateurs dans une interface unique ;</li>
-              <li>calculer des indicateurs de performance ;</li>
-              <li>comparer les resultats entre differentes periodes ;</li>
-              <li>suivre l&apos;evolution des campagnes ;</li>
-              <li>suivre la visibilite locale ;</li>
-              <li>identifier des variations significatives ;</li>
-              <li>generer des alertes ou priorites a partir des donnees de l&apos;utilisateur ;</li>
-              <li>presenter des analyses et syntheses directement dans Shefar Dashboard ;</li>
-              <li>securiser et maintenir la connexion avec les services Google ;</li>
-              <li>permettre l&apos;actualisation des informations lorsque necessaire.</li>
+              <li>when the user has requested support and access is necessary to resolve the request;</li>
+              <li>when the user has provided appropriate consent;</li>
+              <li>when access is necessary to investigate security incidents, abuse, fraud or technical failures;</li>
+              <li>when required to comply with applicable laws or legal obligations;</li>
+              <li>when information has been appropriately aggregated or anonymized for legitimate internal operational purposes.</li>
             </ul>
+            <p>Access is limited to what is reasonably necessary for the relevant purpose.</p>
+          </article>
+
+          <article id="advertising-ai">
+            <h2>10. Use of Google Data for Advertising, AI or Other Purposes</h2>
             <p>
-              Les donnees Google ne sont pas utilisees a des fins etrangeres
-              au fonctionnement de Shefar Dashboard. Cette utilisation est
-              conforme au principe Google de Limited Use, qui exige que les
-              donnees obtenues via les API servent aux fonctionnalites
-              visibles et demandees par l&apos;utilisateur.
+              SHEFAR does not sell Google user data or use Google user data
+              to create advertising profiles for third parties. Information
+              obtained from Google APIs is not transferred or sold for
+              personalized advertising, retargeting, interest-based
+              advertising, advertising data brokerage, credit scoring,
+              lending decisions or unrelated third-party marketing.
+            </p>
+            <p>
+              Where automated systems or analytical technologies are used
+              within SHEFAR, they are intended to provide functionality
+              directly benefiting the relevant SHEFAR user, such as
+              organizing data, identifying variations or presenting
+              performance insights. SHEFAR does not use Google user data to
+              train general-purpose artificial intelligence or
+              machine-learning models for unrelated third parties.
             </p>
           </article>
 
-          <article id="non-utilisation">
-            <h2>10. Ce que Shefar ne fait pas avec les donnees Google</h2>
-            <ul>
-              <li>Shefar ne vend pas les donnees Google des utilisateurs.</li>
-              <li>Shefar ne loue pas les donnees Google des utilisateurs.</li>
-              <li>Shefar ne commercialise pas les donnees Google des utilisateurs aupres de courtiers en donnees.</li>
-              <li>Shefar n&apos;utilise pas les donnees Google obtenues via les API pour creer des profils publicitaires independants du service demande.</li>
-              <li>Shefar n&apos;utilise pas ces donnees pour cibler des utilisateurs avec de la publicite exterieure aux fonctionnalites de Shefar Dashboard.</li>
-              <li>Shefar ne transfere pas les donnees Google a des tiers pour leur propre utilisation commerciale.</li>
-              <li>Shefar ne permet pas a des tiers d&apos;utiliser les donnees Google des utilisateurs pour effectuer de la surveillance.</li>
-              <li>Shefar n&apos;accede pas a davantage de donnees que necessaire au fonctionnement des fonctionnalites proposees.</li>
-            </ul>
-          </article>
-
-          <article id="ia">
-            <h2>11. Intelligence artificielle et donnees Google</h2>
+          <article id="retention">
+            <h2>11. Data Retention</h2>
             <p>
-              Lorsque Shefar Dashboard utilise des fonctionnalites
-              d&apos;analyse automatisee ou d&apos;intelligence artificielle
-              pour presenter des syntheses, alertes, opportunites ou
-              priorites a l&apos;utilisateur, l&apos;utilisation des donnees
-              reste limitee a la fourniture des fonctionnalites de Shefar
-              Dashboard.
-            </p>
-            <p>
-              <strong>
-                Les donnees personnelles obtenues via les API Google ne sont
-                pas utilisees pour developper, entrainer ou ameliorer des
-                modeles d&apos;intelligence artificielle ou de machine
-                learning generalistes ou non personnalises.
-              </strong>
-            </p>
-            <p>
-              Cette precision est particulierement importante dans le cadre
-              des exigences actuelles de Google concernant l&apos;utilisation
-              de donnees provenant des API Google dans des fonctionnalites
-              d&apos;IA ou de machine learning.
-            </p>
-          </article>
-
-          <article id="base-juridique">
-            <h2>12. Base juridique du traitement</h2>
-            <p>
-              Lorsque la reglementation europeenne relative a la protection
-              des donnees s&apos;applique, les traitements peuvent notamment
-              reposer sur :
+              SHEFAR retains Google user data only for as long as
+              reasonably necessary to provide the features requested by the
+              user, maintain the service, comply with applicable legal
+              obligations or resolve legitimate security issues. The
+              retention period may depend on:
             </p>
             <ul>
-              <li>
-                <strong>L&apos;execution du service demande par l&apos;utilisateur</strong> —
-                lorsque le traitement est necessaire pour fournir Shefar
-                Dashboard et les fonctionnalites souscrites ;
-              </li>
-              <li>
-                <strong>Le consentement ou l&apos;autorisation de l&apos;utilisateur</strong> —
-                notamment lorsqu&apos;un utilisateur choisit volontairement
-                de connecter un service Google par OAuth 2.0 ;
-              </li>
-              <li>
-                <strong>L&apos;interet legitime de Shefar</strong> — pour
-                certaines operations strictement necessaires a la securite, a
-                la prevention de la fraude, au maintien du service et a
-                l&apos;amelioration de sa fiabilite ;
-              </li>
-              <li>
-                <strong>Les obligations legales</strong> — lorsque certaines
-                donnees doivent etre conservees ou communiquees en
-                application d&apos;une obligation legale.
-              </li>
+              <li>whether the user&apos;s SHEFAR account remains active;</li>
+              <li>whether the relevant Google service remains connected;</li>
+              <li>whether historical data is necessary for user-facing reporting;</li>
+              <li>whether the user has requested deletion;</li>
+              <li>legal, accounting, security or regulatory requirements.</li>
             </ul>
+            <p>
+              SHEFAR does not intend to maintain permanent copies of Google
+              user data when that information is no longer necessary for
+              the service. When a user disconnects a Google service or
+              requests deletion, SHEFAR will stop using the corresponding
+              Google authorization for new data access and will take
+              reasonable steps to remove associated information that is no
+              longer required. Residual copies may temporarily remain in
+              secure system backups until those backups are overwritten or
+              deleted according to the applicable backup retention cycle.
+              Information that SHEFAR is legally required to retain may be
+              preserved only for the required legal period and for the
+              relevant legal purpose.
+            </p>
           </article>
 
-          <article id="jetons">
-            <h2>13. Jetons OAuth et autorisations Google</h2>
+          <article id="deletion">
+            <h2>12. How to Request Deletion of Google User Data</h2>
             <p>
-              Apres l&apos;autorisation de l&apos;utilisateur, Google peut
-              fournir a Shefar Dashboard des jetons techniques permettant a
-              l&apos;application d&apos;acceder aux donnees autorisees. Ces
-              jetons peuvent notamment permettre :
+              Users may request deletion of information associated with
+              their SHEFAR account or connected Google services. A deletion
+              request may be submitted by contacting:{" "}
+              <a href="mailto:support@shefar.fr">support@shefar.fr</a>
             </p>
+            <p>
+              The request should identify the SHEFAR account concerned and
+              clearly state that the user wishes to delete data associated
+              with a connected Google Account.
+            </p>
+            <p>Following a valid deletion request, SHEFAR will take reasonable steps to:</p>
             <ul>
-              <li>de maintenir la connexion avec un service Google ;</li>
-              <li>d&apos;eviter de demander une nouvelle autorisation a chaque consultation ;</li>
-              <li>d&apos;actualiser les donnees lorsque la fonctionnalite le necessite.</li>
+              <li>identify the relevant SHEFAR account;</li>
+              <li>disconnect the relevant Google authorization where appropriate;</li>
+              <li>stop retrieving new information through the revoked connection;</li>
+              <li>remove stored OAuth credentials associated with that connection where applicable;</li>
+              <li>delete Google user data that is no longer necessary;</li>
+              <li>remove or anonymize related data where appropriate;</li>
+              <li>allow residual backup copies to expire according to the applicable backup lifecycle.</li>
             </ul>
             <p>
-              Ces jetons sont consideres comme des donnees sensibles
-              d&apos;authentification. Ils font l&apos;objet de mesures de
-              securite renforcees et ne sont pas volontairement exposes dans
-              l&apos;interface utilisateur, dans les journaux publics ou dans
-              le code source accessible publiquement.
+              SHEFAR may request reasonable verification before completing
+              a deletion request in order to prevent unauthorized deletion
+              of another user&apos;s information. SHEFAR aims to process
+              legitimate deletion requests without undue delay and in
+              accordance with applicable data-protection requirements.
             </p>
           </article>
 
-          <article id="limitation-acces">
-            <h2>14. Limitation des acces</h2>
+          <article id="revoking">
+            <h2>13. Revoking SHEFAR&apos;s Access to Your Google Account</h2>
             <p>
-              Les acces aux donnees sont limites aux systemes et personnes
-              ayant besoin d&apos;y acceder pour :
-            </p>
-            <ul>
-              <li>fournir le service ;</li>
-              <li>administrer l&apos;infrastructure ;</li>
-              <li>assurer la securite ;</li>
-              <li>resoudre un incident technique ;</li>
-              <li>fournir une assistance demandee par l&apos;utilisateur ;</li>
-              <li>respecter une obligation legale.</li>
-            </ul>
-            <p>
-              Les donnees provenant des API Google ne sont pas librement
-              accessibles aux employes, prestataires ou developpeurs. Un
-              acces humain a des donnees Google n&apos;intervient que
-              lorsque cela est necessaire et autorise, notamment pour
-              assurer le support demande par l&apos;utilisateur, resoudre un
-              incident de securite ou respecter une obligation legale. Les
-              exigences Google Limited Use imposent egalement des
-              restrictions importantes sur l&apos;acces humain aux donnees
-              provenant des API.
-            </p>
-          </article>
-
-          <article id="stockage">
-            <h2>15. Stockage des donnees</h2>
-            <p>
-              Shefar Dashboard peut stocker les donnees strictement
-              necessaires au fonctionnement du service, notamment afin :
-            </p>
-            <ul>
-              <li>d&apos;eviter des appels API inutiles ;</li>
-              <li>de permettre l&apos;affichage du tableau de bord ;</li>
-              <li>de conserver les indicateurs historiques necessaires au suivi des performances ;</li>
-              <li>d&apos;assurer la continuite du service ;</li>
-              <li>de permettre la comparaison entre differentes periodes ;</li>
-              <li>de conserver les parametres de connexion.</li>
-            </ul>
-            <p>
-              Les donnees sont stockees dans l&apos;infrastructure technique
-              utilisee par Shefar et protegees par des mesures adaptees a
-              leur sensibilite.
-            </p>
-          </article>
-
-          <article id="securite">
-            <h2>16. Mesures de securite</h2>
-            <p>
-              Shefar met en oeuvre des mesures techniques et
-              organisationnelles destinees a proteger les donnees contre
-              l&apos;acces non autorise, la divulgation, la modification, la
-              perte, la destruction et l&apos;utilisation abusive. Ces
-              mesures peuvent notamment comprendre :
-            </p>
-            <ul>
-              <li>authentification des utilisateurs ;</li>
-              <li>gestion differenciee des droits d&apos;acces ;</li>
-              <li>chiffrement des communications via HTTPS/TLS ;</li>
-              <li>controle des acces aux serveurs ;</li>
-              <li>separation entre comptes administrateurs, developpeurs et comptes techniques ;</li>
-              <li>protection des secrets et variables d&apos;environnement ;</li>
-              <li>restrictions d&apos;acces aux bases de donnees ;</li>
-              <li>journalisation de certains evenements sensibles ;</li>
-              <li>sauvegardes ;</li>
-              <li>surveillance de l&apos;infrastructure ;</li>
-              <li>mecanismes de detection des incidents ;</li>
-              <li>protection des services exposes publiquement.</li>
-            </ul>
-            <p>Aucun systeme ne peut cependant garantir un niveau de securite absolu.</p>
-          </article>
-
-          <article id="partage">
-            <h2>17. Partage des donnees</h2>
-            <p>
-              Shefar ne partage les donnees Google qu&apos;avec les
-              prestataires techniques strictement necessaires au
-              fonctionnement de Shefar Dashboard, lorsque ce partage est
-              necessaire a la fourniture du service et soumis a des
-              obligations de confidentialite et de securite. Cela peut
-              notamment concerner des prestataires intervenant pour :
-            </p>
-            <ul>
-              <li>l&apos;hebergement ;</li>
-              <li>la securite reseau ;</li>
-              <li>le stockage ;</li>
-              <li>la maintenance technique ;</li>
-              <li>les services d&apos;infrastructure.</li>
-            </ul>
-            <p>
-              Les donnees ne sont pas communiquees a ces prestataires pour
-              qu&apos;ils les utilisent a leurs propres fins commerciales.
-              Google autorise les transferts de donnees uniquement dans
-              certaines circonstances precises, notamment lorsque ceux-ci
-              sont necessaires a la fourniture d&apos;une fonctionnalite
-              visible et demandee par l&apos;utilisateur.
-            </p>
-          </article>
-
-          <article id="vente">
-            <h2>18. Absence de vente des donnees</h2>
-            <p>
-              Shefar ne vend aucune donnee personnelle ni aucune donnee
-              obtenue via les API Google. Les donnees ne constituent pas un
-              produit commercialise par Shefar. Le modele de Shefar Dashboard
-              repose sur la fourniture de services et fonctionnalites de
-              pilotage digital aux entreprises, et non sur la
-              commercialisation des donnees de ses utilisateurs.
-            </p>
-          </article>
-
-          <article id="conservation">
-            <h2>19. Conservation des donnees</h2>
-            <p>Les donnees sont conservees uniquement pendant la duree necessaire :</p>
-            <ul>
-              <li>a la fourniture de Shefar Dashboard ;</li>
-              <li>a l&apos;execution des fonctionnalites demandees ;</li>
-              <li>au maintien de l&apos;historique necessaire au tableau de bord ;</li>
-              <li>au respect des obligations legales applicables ;</li>
-              <li>au traitement d&apos;un eventuel litige ;</li>
-              <li>a la securite de l&apos;infrastructure.</li>
-            </ul>
-            <p>
-              Lorsque les donnees ne sont plus necessaires, elles sont
-              supprimees ou anonymisees selon leur nature et les obligations
-              applicables.
-            </p>
-          </article>
-
-          <article id="deconnexion">
-            <h2>20. Deconnexion d&apos;un compte Google</h2>
-            <p>
-              L&apos;utilisateur peut deconnecter un service Google de
-              Shefar Dashboard. La deconnexion empeche Shefar Dashboard de
-              continuer a utiliser l&apos;autorisation concernee pour
-              acceder aux nouvelles donnees du service deconnecte.
+              Users can revoke SHEFAR&apos;s access directly from their
+              Google Account at any time. This can generally be done from
+              the{" "}
+              <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">
+                Google Account security settings
+              </a>{" "}
+              by opening the section relating to connected applications,
+              third-party applications or services with account access,
+              selecting SHEFAR Dashboard, and removing the application&apos;s
+              access.
             </p>
             <p>
-              L&apos;utilisateur peut egalement revoquer directement
-              l&apos;autorisation accordee a Shefar Dashboard depuis les
-              parametres de securite de son compte Google. La revocation des
-              autorisations Google ne signifie pas necessairement la
-              suppression immediate de toutes les donnees deja
-              enregistrees dans Shefar Dashboard lorsqu&apos;une conservation
-              est encore legitimement necessaire. L&apos;utilisateur peut
-              demander leur suppression conformement a la section suivante.
-            </p>
-          </article>
-
-          <article id="suppression">
-            <h2>21. Suppression des donnees</h2>
-            <p>
-              L&apos;utilisateur peut demander la suppression des donnees
-              associees a son compte Shefar Dashboard. Pour effectuer une
-              demande : <a href="mailto:support@shefar.fr">support@shefar.fr</a>
-            </p>
-            <p>La demande devra permettre a Shefar d&apos;identifier le compte concerne.</p>
-            <p>
-              Lorsque la demande est valide et qu&apos;aucune obligation
-              legale ne justifie une conservation supplementaire, Shefar
-              procede a la suppression ou a l&apos;anonymisation des donnees
-              concernees dans les systemes actifs dans un delai raisonnable.
-              Les copies contenues dans des sauvegardes peuvent etre
-              supprimees progressivement selon le cycle normal de rotation
-              des sauvegardes, sous reserve des obligations legales
-              applicables et a condition qu&apos;elles ne soient pas
-              reintroduites dans les systemes actifs.
-            </p>
-          </article>
-
-          <article id="revocation">
-            <h2>22. Revocation des autorisations Google</h2>
-            <p>
-              L&apos;utilisateur garde le controle des autorisations Google
-              accordees a Shefar Dashboard. Il peut notamment :
-            </p>
-            <ul>
-              <li>deconnecter le service depuis Shefar Dashboard lorsque cette fonctionnalite est disponible ;</li>
-              <li>acceder aux parametres de securite de son compte Google ;</li>
-              <li>retirer l&apos;acces accorde a Shefar Dashboard, depuis{" "}
-                <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">
-                  myaccount.google.com/permissions
-                </a>
-                .
-              </li>
-            </ul>
-            <p>
-              Apres revocation, Shefar Dashboard ne peut plus utiliser le
-              jeton concerne pour obtenir de nouvelles donnees via les API
-              Google.
-            </p>
-          </article>
-
-          <article id="droits">
-            <h2>23. Droits des utilisateurs</h2>
-            <p>
-              Lorsque la reglementation applicable le prevoit, vous pouvez
-              disposer notamment des droits suivants :
-            </p>
-            <ul>
-              <li>droit d&apos;acces ;</li>
-              <li>droit de rectification ;</li>
-              <li>droit a l&apos;effacement ;</li>
-              <li>droit a la limitation du traitement ;</li>
-              <li>droit d&apos;opposition ;</li>
-              <li>droit a la portabilite dans les cas prevus par la loi ;</li>
-              <li>droit de retirer votre consentement lorsqu&apos;un traitement repose sur celui-ci ;</li>
-              <li>droit de deposer une reclamation aupres d&apos;une autorite competente.</li>
-            </ul>
-            <p>
-              Pour exercer l&apos;un de ces droits :{" "}
+              Once access has been revoked, SHEFAR will no longer be able
+              to retrieve new Google user data through that authorization.
+              Revoking Google authorization and deleting information
+              already stored by SHEFAR are separate actions. If a user also
+              wants previously stored information to be deleted, the user
+              may submit a deletion request to:{" "}
               <a href="mailto:support@shefar.fr">support@shefar.fr</a>
             </p>
           </article>
 
-          <article id="tiers">
-            <h2>24. Donnees concernant des tiers</h2>
+          <article id="disconnecting">
+            <h2>14. Disconnecting a Google Service From SHEFAR</h2>
             <p>
-              Lorsqu&apos;un utilisateur connecte un compte professionnel
-              contenant des informations relatives a une organisation, des
-              etablissements ou d&apos;autres utilisateurs, il lui
-              appartient de s&apos;assurer qu&apos;il dispose des droits
-              necessaires pour connecter ce compte et utiliser ces donnees
-              dans Shefar Dashboard.
-            </p>
-            <p>
-              L&apos;utilisateur ne doit pas utiliser Shefar Dashboard afin
-              d&apos;acceder a des donnees auxquelles il n&apos;est pas
-              autorise a acceder.
-            </p>
-          </article>
-
-          <article id="journaux">
-            <h2>25. Journaux techniques et securite</h2>
-            <p>
-              Pour assurer la securite et le fonctionnement du service,
-              Shefar peut conserver certaines informations techniques telles
-              que :
-            </p>
-            <ul>
-              <li>date et heure de connexion ;</li>
-              <li>adresse IP ;</li>
-              <li>type de navigateur ;</li>
-              <li>erreurs applicatives ;</li>
-              <li>evenements de securite ;</li>
-              <li>tentatives d&apos;acces ;</li>
-              <li>journaux necessaires au diagnostic technique.</li>
-            </ul>
-            <p>Ces donnees sont utilisees notamment pour assurer la securite, prevenir les abus, diagnostiquer les incidents, proteger les comptes utilisateurs et maintenir la disponibilite de Shefar Dashboard.</p>
-          </article>
-
-          <article id="cookies">
-            <h2>26. Cookies et stockage local</h2>
-            <p>
-              Shefar Dashboard peut utiliser des cookies ou mecanismes de
-              stockage technique strictement necessaires pour :
-            </p>
-            <ul>
-              <li>maintenir une session utilisateur ;</li>
-              <li>assurer l&apos;authentification ;</li>
-              <li>securiser la navigation ;</li>
-              <li>memoriser certaines preferences ;</li>
-              <li>assurer le bon fonctionnement de l&apos;application.</li>
-            </ul>
-            <p>
-              Lorsque des cookies non strictement necessaires sont utilises,
-              ils sont soumis aux regles applicables en matiere
-              d&apos;information et de consentement.
-            </p>
-          </article>
-
-          <article id="transferts">
-            <h2>27. Transferts internationaux</h2>
-            <p>
-              Certains prestataires techniques utilises pour fournir Shefar
-              Dashboard peuvent traiter des donnees depuis differents pays.
-              Lorsque la reglementation l&apos;exige, Shefar veille a ce que
-              ces transferts reposent sur un mecanisme juridique approprie et
-              sur des garanties adaptees au niveau de protection requis.
-            </p>
-          </article>
-
-          <article id="mineurs">
-            <h2>28. Mineurs</h2>
-            <p>
-              Shefar Dashboard est un service professionnel destine aux
-              entreprises et a leurs representants. Il n&apos;est pas concu
-              comme un service destine aux enfants. Shefar ne cherche pas
-              volontairement a collecter des donnees personnelles concernant
-              des mineurs dans le cadre de l&apos;utilisation normale de
-              Shefar Dashboard.
-            </p>
-          </article>
-
-          <article id="google-policy">
-            <h2>29. Google API Services User Data Policy</h2>
-            <p>
-              L&apos;utilisation par Shefar Dashboard des informations
-              recues des API Google respecte la Google API Services User
-              Data Policy, y compris les exigences de Limited Use. Cela
-              signifie notamment que l&apos;utilisation des donnees Google
-              est limitee aux fonctionnalites visibles et demandees par
-              l&apos;utilisateur et que leur transfert, leur utilisation
-              publicitaire et leur acces humain sont strictement encadres.
-            </p>
-            <p>
-              Google exige expressement qu&apos;une politique de
-              confidentialite explique de maniere complete comment une
-              application accede, utilise, stocke ou partage les donnees
-              Google des utilisateurs.
+              Where this functionality is available within SHEFAR
+              Dashboard, users may also disconnect a Google service
+              directly from their SHEFAR account. Disconnecting a service
+              prevents SHEFAR from continuing to use that connection to
+              retrieve updated information. The user may additionally
+              revoke the authorization directly from the user&apos;s Google
+              Account for complete control over Google-side authorization.
             </p>
           </article>
 
           <article id="limited-use">
-            <h2>30. Limited Use</h2>
+            <h2>15. Google API Services User Data Policy and Limited Use</h2>
+            <p>
+              SHEFAR is committed to complying with the Google API Services
+              User Data Policy, including the applicable Limited Use
+              requirements.
+            </p>
             <div className="mention">
               <p>
-                Shefar Dashboard&apos;s use and transfer of information
-                received from Google APIs will adhere to the{" "}
+                SHEFAR&apos;s use of information received from Google APIs
+                will adhere to the{" "}
                 <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">
                   Google API Services User Data Policy
                 </a>
                 , including the Limited Use requirements.
               </p>
             </div>
-            <p>En particulier :</p>
+            <p>In particular, SHEFAR limits the use of Google user data to providing or improving user-facing features that are visible and relevant within SHEFAR Dashboard:</p>
             <ul>
-              <li>les donnees sont utilisees uniquement pour fournir ou ameliorer les fonctionnalites visibles de Shefar Dashboard ;</li>
-              <li>elles ne sont pas vendues ;</li>
-              <li>elles ne sont pas transferees a des tiers a des fins publicitaires ;</li>
-              <li>elles ne sont pas utilisees pour creer des bases de donnees commerciales independantes ;</li>
-              <li>l&apos;acces humain est limite aux situations autorisees ;</li>
-              <li>les donnees ne sont pas utilisees pour entrainer des modeles d&apos;IA generalistes ou non personnalises.</li>
+              <li>SHEFAR does not use Google user data for unrelated purposes;</li>
+              <li>SHEFAR does not sell Google user data;</li>
+              <li>SHEFAR does not transfer Google user data to advertising platforms, data brokers or information resellers;</li>
+              <li>SHEFAR does not use Google user data for personalized, interest-based or retargeting advertising;</li>
+              <li>SHEFAR does not use Google user data for determining creditworthiness or lending decisions.</li>
             </ul>
-          </article>
-
-          <article id="modifications">
-            <h2>31. Modification de cette Politique de confidentialite</h2>
-            <p>Cette politique peut evoluer afin de tenir compte :</p>
+            <p>Transfers of Google user data are limited to circumstances necessary to:</p>
             <ul>
-              <li>de nouvelles fonctionnalites ;</li>
-              <li>de modifications reglementaires ;</li>
-              <li>de changements concernant les API Google ;</li>
-              <li>de nouvelles pratiques de securite ;</li>
-              <li>de changements dans la maniere dont les donnees sont traitees.</li>
+              <li>provide or improve the SHEFAR features requested by the user;</li>
+              <li>operate the infrastructure required to provide those features;</li>
+              <li>maintain the security and integrity of SHEFAR;</li>
+              <li>investigate security incidents, abuse or technical issues;</li>
+              <li>comply with applicable laws or legal obligations;</li>
+              <li>complete a corporate transaction where legally permitted and where any required user consent has been obtained.</li>
             </ul>
             <p>
-              Lorsque la maniere dont Shefar utilise les donnees Google
-              change de maniere substantielle, la politique sera mise a jour
-              et les utilisateurs seront informes lorsque cela est
-              necessaire. Google demande egalement que les utilisateurs
-              soient informes lorsqu&apos;une application modifie la maniere
-              dont elle utilise leurs donnees Google.
+              SHEFAR also restricts human access to Google user data except
+              where such access is appropriately authorized, required for
+              user-requested support, necessary for security purposes,
+              required by law, or otherwise permitted under the Google API
+              Services User Data Policy. These principles apply both to
+              information received directly from Google APIs and, where
+              applicable, to information derived from that data.
+            </p>
+          </article>
+
+          <article id="user-control">
+            <h2>16. User Control</h2>
+            <p>Users remain in control of the Google services connected to SHEFAR Dashboard. At any time, a user may:</p>
+            <ul>
+              <li>choose not to connect a Google service;</li>
+              <li>refuse an OAuth permission request;</li>
+              <li>disconnect a Google service;</li>
+              <li>revoke SHEFAR&apos;s Google authorization;</li>
+              <li>request deletion of stored information;</li>
+              <li>contact SHEFAR regarding the use of Google user data.</li>
+            </ul>
+            <p>
+              If a permission required for a particular Dashboard feature
+              is refused or revoked, the corresponding feature may no
+              longer function, but unrelated SHEFAR functionality may
+              remain available.
+            </p>
+          </article>
+
+          <article id="other-info">
+            <h2>17. Other Personal Information</h2>
+            <p>
+              In addition to information obtained from connected Google
+              services, SHEFAR may process limited information necessary to
+              create, secure and operate a SHEFAR account. This may
+              include:
+            </p>
+            <ul>
+              <li>account identification information;</li>
+              <li>contact information provided by the user;</li>
+              <li>authentication and account-management information;</li>
+              <li>technical information necessary for security;</li>
+              <li>application logs;</li>
+              <li>information voluntarily submitted when contacting SHEFAR support.</li>
+            </ul>
+            <p>
+              Such information is processed only where necessary to
+              operate, secure and support the SHEFAR service or comply with
+              applicable legal obligations.
+            </p>
+          </article>
+
+          <article id="international">
+            <h2>18. International Processing and Service Providers</h2>
+            <p>
+              Some technical service providers used to operate SHEFAR may
+              process information from infrastructure located in different
+              countries. Where personal data is transferred
+              internationally, SHEFAR takes reasonable steps to ensure that
+              appropriate safeguards are used where required by applicable
+              data-protection legislation. Service providers are expected
+              to process information only according to their contractual
+              obligations and applicable law.
+            </p>
+          </article>
+
+          <article id="changes">
+            <h2>19. Changes to This Privacy Policy</h2>
+            <p>SHEFAR may update this Privacy Policy when necessary to reflect:</p>
+            <ul>
+              <li>changes to SHEFAR Dashboard;</li>
+              <li>new or modified Google integrations;</li>
+              <li>changes to data-processing practices;</li>
+              <li>legal or regulatory requirements;</li>
+              <li>Google API policy requirements;</li>
+              <li>security or infrastructure changes.</li>
+            </ul>
+            <p>
+              If SHEFAR materially changes how Google user data is
+              accessed, used, stored or shared, the Privacy Policy will be
+              updated before the new use is implemented where required.
+              Where applicable, users may also be asked to review or
+              consent to updated information before their Google data is
+              used for a materially different purpose. The latest version
+              of this Privacy Policy will remain publicly available on the
+              SHEFAR website.
             </p>
           </article>
 
           <article id="contact">
-            <h2>32. Contact</h2>
+            <h2>20. Contact SHEFAR</h2>
             <p>
-              Pour toute question concernant cette Politique de
-              confidentialite, vos donnees personnelles, les donnees
-              provenant de Google, les autorisations OAuth, la suppression de
-              vos donnees, la revocation d&apos;un acces ou la securite de
-              votre compte, vous pouvez contacter :
+              For questions about this Privacy Policy, Google API data,
+              connected Google services, data deletion or privacy rights,
+              please contact:
             </p>
             <p>
-              Shefar
+              SHEFAR
               <br />
-              E-mail : <a href="mailto:support@shefar.fr">support@shefar.fr</a>
+              Email: <a href="mailto:support@shefar.fr">support@shefar.fr</a>
               <br />
-              Site : <a href="https://shefar.fr">shefar.fr</a>
+              Website: <a href="https://shefar.fr">shefar.fr</a>
             </p>
+            <p>
+              Users requesting deletion of Google user data should clearly
+              indicate &quot;Google User Data Deletion Request&quot; in
+              their message so that the request can be identified and
+              processed appropriately.
+            </p>
+          </article>
+
+          <article id="summary">
+            <h2>Summary of Google Data Practices</h2>
+            <ul>
+              <li><strong>Google Ads data accessed:</strong> campaign, budget, impression, click, cost, conversion and other authorized reporting and performance information.</li>
+              <li><strong>Google Business Profile data accessed:</strong> authorized business locations, business profile information, local visibility information and available performance metrics.</li>
+              <li><strong>Purpose:</strong> to provide reporting, monitoring, analysis and digital-performance features directly within SHEFAR Dashboard.</li>
+              <li><strong>Storage:</strong> only where necessary to provide SHEFAR functionality, subject to appropriate technical and organizational safeguards.</li>
+              <li><strong>Sharing:</strong> no sale of Google user data; limited processing by technical service providers may occur only where necessary to operate and secure SHEFAR.</li>
+              <li><strong>Advertising:</strong> Google user data is not sold or used for third-party targeted advertising, retargeting or interest-based advertising.</li>
+              <li><strong>Retention:</strong> only for as long as necessary for the requested SHEFAR service, legitimate security requirements or applicable legal obligations.</li>
+              <li><strong>Deletion:</strong> users may request deletion by contacting support@shefar.fr.</li>
+              <li><strong>Google authorization:</strong> users may revoke SHEFAR&apos;s access at any time through their Google Account security settings.</li>
+              <li><strong>Limited Use:</strong> SHEFAR&apos;s use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.</li>
+            </ul>
           </article>
         </div>
       </main>

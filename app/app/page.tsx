@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import HomeContent from "@/components/HomeContent";
 
-const titre = "Shefar Dashboard | Tableau de bord de performance digitale";
+const titre = "SHEFAR Dashboard | Digital Performance Management Platform";
 const description =
-  "Centralisez Google Ads, Google Analytics, Google Search Console, Google Business Profile, PageSpeed Insights et Chrome UX Report dans une seule interface de pilotage.";
+  "Centralize Google Ads, Google Analytics, Google Search Console, Google Business Profile, PageSpeed Insights and Chrome UX Report in a single performance management interface.";
 
 export const metadata: Metadata = {
   title: titre,

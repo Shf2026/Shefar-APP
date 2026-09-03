@@ -26,10 +26,10 @@ export default function Header() {
         </Link>
         <nav className="entete-liens">
           <Link className="lien-masquable" href="/app">
-            Shefar Dashboard
+            SHEFAR Dashboard
           </Link>
-          <Link href="/privacy">Confidentialite</Link>
-          <Link href="/terms">Conditions</Link>
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
         </nav>
         <ThemeToggle />
       </div>

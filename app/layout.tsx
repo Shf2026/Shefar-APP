@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ThemeScript from "@/components/ThemeScript";
 import "./globals.css";
 
-const titre = "Shefar Dashboard";
+const titre = "SHEFAR Dashboard";
 const description =
-  "Centralisez Google Ads, Google Analytics, Google Search Console, Google Business Profile, PageSpeed Insights et Chrome UX Report dans une seule interface de pilotage.";
+  "Centralize Google Ads, Google Analytics, Google Search Console, Google Business Profile, PageSpeed Insights and Chrome UX Report in a single performance management interface.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shefar.fr"),
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "Shefar",
-    locale: "fr_FR",
+    locale: "en_US",
     type: "website",
     title: titre,
     description,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="fr" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

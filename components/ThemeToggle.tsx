@@ -25,7 +25,7 @@ export default function ThemeToggle() {
     <button
       type="button"
       className="bascule-theme"
-      aria-label="Basculer entre le theme clair et le theme sombre"
+      aria-label="Toggle light and dark theme"
       onClick={basculerTheme}
     >
       <svg

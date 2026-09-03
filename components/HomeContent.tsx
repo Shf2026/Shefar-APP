@@ -9,44 +9,40 @@ export default function HomeContent() {
       <main>
         <section className="ouverture">
           <div className="conteneur">
-            <span className="etiquette">Shefar Dashboard</span>
-            <h1>Shefar Dashboard</h1>
-            <p className="accroche">
-              Pilotez votre performance digitale depuis un seul espace.
+            <span className="etiquette">SHEFAR Dashboard</span>
+            <h1>SHEFAR Dashboard</h1>
+            <p className="introduction">
+              SHEFAR Dashboard is a web application designed to help
+              businesses manage and understand their digital performance. It
+              allows users to securely connect several Google services,
+              including Google Ads and Google Business Profile, in order to
+              retrieve only the data authorized by the user through Google
+              APIs and centralize it within a single interface.
             </p>
             <p className="introduction">
-              Shefar Dashboard est une application web de pilotage de la
-              performance digitale destinee aux entreprises. Elle permet de
-              connecter de maniere securisee plusieurs services Google,
-              notamment Google Ads et Google Business Profile, afin de
-              recuperer uniquement les donnees autorisees par
-              l&apos;utilisateur via les API Google et de les centraliser
-              dans une interface unique.
+              The application allows businesses to monitor their main
+              performance indicators, including advertising campaigns,
+              budgets, impressions, clicks, costs, conversions, conversion
+              rates, local visibility data and information associated with
+              Google Business Profile locations. These data are organized
+              into clear and accessible dashboards to make performance
+              monitoring easier and help users understand how their results
+              evolve over time.
             </p>
             <p className="introduction">
-              L&apos;application permet ensuite de suivre les principaux
-              indicateurs de performance : campagnes publicitaires, budgets,
-              impressions, clics, couts, conversions, taux de conversion,
-              donnees de visibilite locale et informations liees aux
-              etablissements Google Business Profile. Ces donnees sont
-              organisees dans des tableaux de bord lisibles afin de faciliter
-              le suivi des performances et la comprehension de leur
-              evolution.
-            </p>
-            <p className="introduction">
-              L&apos;objectif de Shefar Dashboard est de transformer des
-              donnees dispersees entre plusieurs plateformes Google en une
-              vision claire et exploitable. L&apos;utilisateur peut ainsi
-              identifier plus rapidement les variations importantes, les
-              points de vigilance, les opportunites et les actions a
-              prioriser pour mieux piloter sa performance digitale.
+              The purpose of SHEFAR Dashboard is to transform data that is
+              distributed across several Google platforms into a clear and
+              actionable view. Users can therefore identify important
+              changes, areas requiring attention, opportunities and priority
+              actions more quickly in order to manage their digital
+              performance more effectively.
             </p>
             <div className="ouverture-actions">
               <a className="bouton bouton-plein" href="#">
-                Acceder au Dashboard
+                Access the Dashboard
               </a>
               <a className="bouton bouton-contour" href="#produits">
-                Voir les fonctionnalites
+                View features
               </a>
             </div>
           </div>
@@ -56,11 +52,12 @@ export default function HomeContent() {
           <div className="conteneur">
             <div className="section-entete">
               <p className="surtitre">Integrations</p>
-              <h2>Connectez vos services Google a Shefar Dashboard</h2>
+              <h2>Connect Your Google Services to SHEFAR Dashboard</h2>
               <p>
-                Centralisez Google Ads, Google Analytics, Google Search
-                Console, Google Business Profile, PageSpeed Insights et
-                Chrome UX Report dans une seule interface de pilotage.
+                Centralize Google Ads, Google Analytics, Google Search
+                Console, Google Business Profile, PageSpeed Insights and
+                Chrome UX Report in a single performance management
+                interface.
               </p>
             </div>
 
@@ -71,11 +68,11 @@ export default function HomeContent() {
                 </span>
                 <h3>Google Ads</h3>
                 <p>
-                  Shefar Dashboard se connecte a Google Ads afin de
-                  centraliser les donnees des comptes et campagnes autorises
-                  par l&apos;utilisateur : campagnes, budgets, impressions,
-                  clics, couts, conversions, taux de conversion et autres KPI
-                  publicitaires disponibles via les API Google.
+                  SHEFAR Dashboard connects to Google Ads to centralize data
+                  from accounts and campaigns authorized by the user:
+                  campaigns, budgets, impressions, clicks, costs,
+                  conversions, conversion rates and other advertising KPIs
+                  available through the Google Ads API.
                 </p>
               </article>
 
@@ -85,11 +82,11 @@ export default function HomeContent() {
                 </span>
                 <h3>Google Analytics</h3>
                 <p>
-                  La connexion a Google Analytics permet de centraliser les
-                  principaux indicateurs lies a l&apos;utilisation et aux
-                  performances du site internet : audience, sources
-                  d&apos;acquisition, sessions, evenements, conversions et
-                  evolution des comportements observes sur le site.
+                  Connecting Google Analytics allows SHEFAR Dashboard to
+                  centralize key indicators relating to website usage and
+                  performance: traffic, acquisition sources, sessions,
+                  events, conversions and changes in user behavior over
+                  time.
                 </p>
               </article>
 
@@ -99,10 +96,10 @@ export default function HomeContent() {
                 </span>
                 <h3>Google Search Console</h3>
                 <p>
-                  Shefar Dashboard utilise les donnees autorisees de Google
-                  Search Console pour suivre la visibilite dans les resultats
-                  de recherche Google : clics organiques, impressions,
-                  requetes, pages, positions moyennes et taux de clic.
+                  SHEFAR Dashboard uses authorized Google Search Console data
+                  to help businesses monitor their visibility in Google
+                  Search: organic clicks, impressions, search queries,
+                  pages, average positions and click-through rates.
                 </p>
               </article>
 
@@ -112,11 +109,11 @@ export default function HomeContent() {
                 </span>
                 <h3>Google Business Profile</h3>
                 <p>
-                  La connexion a Google Business Profile permet de
-                  centraliser les informations relatives aux etablissements
-                  de l&apos;entreprise et a leur visibilite locale : fiches,
-                  informations publiques et indicateurs de performance
-                  disponibles.
+                  Connecting Google Business Profile allows SHEFAR Dashboard
+                  to centralize information about a company&apos;s business
+                  locations and local presence on Google: locations, public
+                  profile information and available local-performance
+                  indicators.
                 </p>
               </article>
 
@@ -126,11 +123,10 @@ export default function HomeContent() {
                 </span>
                 <h3>PageSpeed Insights &amp; Chrome UX Report</h3>
                 <p>
-                  Shefar Dashboard complete les donnees marketing avec des
-                  indicateurs techniques provenant de Google PageSpeed
-                  Insights et du Chrome UX Report (CrUX) : vitesse,
-                  performance des pages, experience utilisateur et Core Web
-                  Vitals (LCP, INP, CLS).
+                  SHEFAR Dashboard complements marketing data with technical
+                  performance indicators from Google PageSpeed Insights and
+                  the Chrome UX Report (CrUX): page speed, user experience
+                  and Core Web Vitals (LCP, INP, CLS).
                 </p>
               </article>
             </div>
@@ -140,122 +136,118 @@ export default function HomeContent() {
         <section className="section" id="connexion">
           <div className="conteneur texte-etroit legal">
             <article>
-              <h2>Etape 1 — Connectez vos comptes et services Google</h2>
-              <h3>Connectez votre entreprise a Shefar Dashboard</h3>
+              <h2>Step 1 — Connect Your Google Accounts and Services</h2>
+              <h3>Connect Your Business to SHEFAR Dashboard</h3>
               <p>
-                Shefar Dashboard permet a l&apos;utilisateur de connecter les
-                comptes Google necessaires au fonctionnement des differents
-                modules de l&apos;application. La connexion est realisee via
-                Google OAuth 2.0, le protocole d&apos;autorisation de Google.
+                SHEFAR Dashboard allows users to connect the Google accounts
+                and services required for the different modules of the
+                application. The connection is made through Google OAuth
+                2.0, Google&apos;s secure authorization protocol.
               </p>
-              <p>Lorsque vous choisissez de connecter un service Google, vous etes redirige vers Google afin de :</p>
+              <p>When you choose to connect a Google service, you are redirected to Google where you can:</p>
               <ul>
-                <li>selectionner votre compte Google ;</li>
-                <li>identifier les comptes ou etablissements auxquels vous souhaitez donner acces ;</li>
-                <li>consulter les autorisations demandees par Shefar Dashboard ;</li>
-                <li>accepter ou refuser ces autorisations.</li>
+                <li>select your Google Account;</li>
+                <li>identify the accounts or business locations you want to make accessible;</li>
+                <li>review the permissions requested by SHEFAR Dashboard;</li>
+                <li>accept or refuse the requested permissions.</li>
               </ul>
               <p>
                 <strong>
-                  Shefar Dashboard ne demande, ne collecte et ne stocke
-                  jamais votre mot de passe Google.
+                  SHEFAR Dashboard never asks for, collects or stores your
+                  Google Account password.
                 </strong>{" "}
-                L&apos;acces aux donnees est realise a l&apos;aide des
-                autorisations OAuth accordees directement par
-                l&apos;utilisateur.
+                Authentication is handled directly by Google. Access to
+                Google data is performed using the OAuth permissions
+                explicitly granted by the user.
               </p>
 
               <h3>Google Ads</h3>
               <p>
-                La connexion a Google Ads permet a Shefar Dashboard de
-                recuperer les donnees necessaires au suivi de vos campagnes
-                publicitaires. Selon les donnees disponibles sur votre compte
-                et les fonctionnalites activees, Shefar Dashboard peut
-                notamment centraliser :
+                Connecting Google Ads allows SHEFAR Dashboard to retrieve
+                the information necessary to monitor your advertising
+                campaigns. Depending on the information available in your
+                Google Ads account and the features enabled, SHEFAR
+                Dashboard may centralize:
               </p>
               <ul>
-                <li>les comptes Google Ads connectes ;</li>
-                <li>les campagnes ;</li>
-                <li>les budgets publicitaires ;</li>
-                <li>les impressions ;</li>
-                <li>les clics ;</li>
-                <li>les couts ;</li>
-                <li>les conversions ;</li>
-                <li>les taux de conversion ;</li>
-                <li>le cout par conversion ;</li>
-                <li>les performances des campagnes ;</li>
-                <li>l&apos;evolution des principaux indicateurs dans le temps.</li>
+                <li>connected Google Ads accounts;</li>
+                <li>campaigns;</li>
+                <li>advertising budgets;</li>
+                <li>impressions;</li>
+                <li>clicks;</li>
+                <li>advertising costs;</li>
+                <li>conversions;</li>
+                <li>conversion rates;</li>
+                <li>cost per conversion;</li>
+                <li>campaign performance;</li>
+                <li>changes in key performance indicators over time.</li>
               </ul>
               <p>
-                Ces informations permettent a l&apos;utilisateur de retrouver
-                ses principaux KPI Google Ads dans son tableau de bord Shefar
-                Dashboard et de suivre plus facilement l&apos;evolution de
-                ses investissements publicitaires.
+                This information allows users to access their main Google
+                Ads KPIs directly from SHEFAR Dashboard and monitor the
+                evolution of their advertising investment more easily.
               </p>
 
               <h3>Google Business Profile</h3>
               <p>
-                La connexion a Google Business Profile permet de centraliser
-                les informations relatives aux etablissements et a leur
-                presence locale sur Google. Selon les donnees disponibles et
-                les modules utilises, Shefar Dashboard peut notamment
-                exploiter les informations necessaires pour afficher :
+                Connecting Google Business Profile allows SHEFAR Dashboard
+                to centralize information relating to business locations
+                and their local presence on Google. Depending on the
+                information available and the modules enabled, SHEFAR
+                Dashboard may use information required to display:
               </p>
               <ul>
-                <li>les etablissements associes au compte ;</li>
-                <li>les informations de la fiche etablissement ;</li>
-                <li>les donnees liees a la visibilite locale ;</li>
-                <li>les performances disponibles pour les etablissements ;</li>
-                <li>les principaux signaux permettant de suivre l&apos;evolution de la presence locale.</li>
+                <li>locations associated with the connected account;</li>
+                <li>business profile information;</li>
+                <li>local visibility indicators;</li>
+                <li>available location performance information;</li>
+                <li>key signals used to monitor changes in local presence.</li>
               </ul>
               <p>
-                Shefar Dashboard permet ainsi aux entreprises disposant
-                d&apos;un ou plusieurs etablissements de retrouver leurs
-                informations locales dans le meme environnement que leurs
-                autres indicateurs digitaux.
+                SHEFAR Dashboard therefore allows businesses with one or
+                several locations to access their local information in the
+                same environment as their other digital-performance
+                indicators.
               </p>
 
-              <h3>Donnees techniques du site</h3>
+              <h3>Website Technical Data</h3>
               <p>
-                Shefar Dashboard peut egalement integrer des donnees
-                techniques permettant d&apos;evaluer les performances
-                d&apos;un site internet, notamment via Google PageSpeed
-                Insights, afin de mesurer :
+                SHEFAR Dashboard may also integrate technical information
+                used to evaluate website performance, notably through
+                Google PageSpeed Insights, in order to measure:
               </p>
               <ul>
-                <li>la performance des pages ;</li>
-                <li>la vitesse de chargement ;</li>
-                <li>l&apos;experience utilisateur ;</li>
-                <li>les Core Web Vitals et autres metriques techniques disponibles ;</li>
-                <li>les elements techniques pouvant necessiter une optimisation.</li>
+                <li>page performance;</li>
+                <li>loading speed;</li>
+                <li>user experience;</li>
+                <li>Core Web Vitals and other technical metrics;</li>
+                <li>technical elements that may require optimization.</li>
               </ul>
               <p>
-                Ces donnees viennent completer les informations marketing
-                afin de fournir une vision plus globale de la performance
-                digitale.
+                These indicators complement marketing information and
+                provide a more complete view of digital performance.
               </p>
 
-              <h3>Pourquoi Shefar Dashboard demande un acces Google</h3>
+              <h3>Why SHEFAR Dashboard Requests Access to Google</h3>
               <p>
-                Les autorisations Google demandees par Shefar Dashboard
-                servent exclusivement a permettre les fonctionnalites
-                activees par l&apos;utilisateur. Elles peuvent notamment etre
-                necessaires pour :
+                The Google permissions requested by SHEFAR Dashboard are
+                used exclusively to provide the features activated by the
+                user. These permissions may be required to:
               </p>
               <ul>
-                <li>identifier le compte connecte ;</li>
-                <li>recuperer les comptes accessibles par l&apos;utilisateur ;</li>
-                <li>afficher les donnees Google Ads ;</li>
-                <li>afficher les donnees Google Business Profile ;</li>
-                <li>centraliser les indicateurs dans le dashboard ;</li>
-                <li>actualiser les donnees lorsque l&apos;utilisateur consulte son espace.</li>
+                <li>identify the connected Google Account;</li>
+                <li>retrieve accounts accessible to the user;</li>
+                <li>display Google Ads data;</li>
+                <li>display Google Business Profile data;</li>
+                <li>centralize performance indicators in the Dashboard;</li>
+                <li>update information when the user accesses their account.</li>
               </ul>
               <p>
-                Shefar Dashboard n&apos;accede qu&apos;aux donnees
-                correspondant aux autorisations accordees par
-                l&apos;utilisateur. L&apos;utilisateur peut revoquer
-                l&apos;acces a son compte Google a tout moment depuis les
-                parametres de securite de son compte Google.
+                SHEFAR Dashboard only accesses Google data that corresponds
+                to the permissions explicitly granted by the user. Users can
+                revoke SHEFAR Dashboard&apos;s access to their Google
+                Account at any time from their Google Account security
+                settings.
               </p>
             </article>
           </div>
@@ -264,157 +256,118 @@ export default function HomeContent() {
         <section className="section" id="pilotage">
           <div className="conteneur texte-etroit legal">
             <article>
-              <h2>Etape 2 — Centralisez, analysez et pilotez vos performances</h2>
-              <h3>Un tableau de bord unique pour vos donnees digitales</h3>
+              <h2>Step 2 — Centralize, Analyze and Manage Your Performance</h2>
+              <h3>One Dashboard for Your Digital Data</h3>
               <p>
-                Une fois les services connectes, Shefar Dashboard centralise
-                les donnees provenant des differentes sources afin de les
-                rendre plus simples a consulter et a comparer. Le tableau de
-                bord peut ainsi reunir dans un meme environnement :
+                Once the selected services are connected, SHEFAR Dashboard
+                centralizes data from different sources in order to make it
+                easier to consult, understand and compare. The Dashboard
+                may bring together:
               </p>
               <ul>
-                <li>donnees Google Ads ;</li>
-                <li>donnees Google Business Profile ;</li>
-                <li>performances du site internet ;</li>
-                <li>indicateurs de visibilite ;</li>
-                <li>evolution des performances ;</li>
-                <li>alertes ;</li>
-                <li>opportunites ;</li>
-                <li>priorites identifiees.</li>
+                <li>Google Ads data;</li>
+                <li>Google Business Profile data;</li>
+                <li>website performance information;</li>
+                <li>visibility indicators;</li>
+                <li>performance trends;</li>
+                <li>alerts;</li>
+                <li>opportunities;</li>
+                <li>identified priorities.</li>
               </ul>
 
-              <h3>Suivez vos KPI Google Ads</h3>
+              <h3>Monitor Your Google Ads KPIs</h3>
               <p>
-                Shefar Dashboard permet de suivre les principaux indicateurs
-                de vos campagnes Google Ads sans devoir analyser chaque
-                campagne separement dans plusieurs ecrans : depenses
-                publicitaires, clics, impressions, conversions, couts par
-                conversion, taux de conversion et autres indicateurs
-                disponibles dans les comptes connectes.
+                SHEFAR Dashboard allows users to monitor the main indicators
+                of their Google Ads campaigns without having to analyze
+                each campaign separately across multiple screens:
+                advertising spend, clicks, impressions, conversions, cost
+                per conversion, conversion rates and other indicators
+                available in the connected accounts.
               </p>
 
-              <h3>Suivez votre visibilite locale</h3>
+              <h3>Monitor Your Local Visibility</h3>
               <p>
-                Pour les entreprises disposant d&apos;etablissements
-                physiques, Shefar Dashboard permet de centraliser les
-                informations provenant de Google Business Profile et de
-                rapprocher les donnees de visibilite locale des autres
-                indicateurs digitaux de l&apos;entreprise.
+                For businesses with physical locations, SHEFAR Dashboard
+                can centralize information obtained from Google Business
+                Profile and compare local visibility information with the
+                company&apos;s other digital-performance indicators.
               </p>
 
-              <h3>Analysez les performances du site</h3>
+              <h3>Analyze Your Website Performance</h3>
               <p>
-                Les informations techniques peuvent etre regroupees avec les
-                donnees marketing afin d&apos;aider l&apos;utilisateur a
-                comprendre si certaines performances digitales peuvent etre
-                affectees par l&apos;experience proposee sur le site.
+                Technical website information can be combined with
+                marketing data to help users understand whether certain
+                digital-performance issues may be related to the experience
+                provided by their website.
               </p>
 
-              <h3>Identifiez les variations importantes</h3>
+              <h3>Identify Important Changes</h3>
               <p>
-                Shefar Dashboard ne se limite pas a afficher des chiffres.
-                L&apos;application organise les donnees afin de faciliter
-                l&apos;identification des changements importants :
+                SHEFAR Dashboard does more than simply display numbers. The
+                application organizes information in order to make
+                significant changes easier to identify:
               </p>
               <ul>
-                <li>une hausse ou une baisse des conversions ;</li>
-                <li>une evolution du cout publicitaire ;</li>
-                <li>une variation de la visibilite ;</li>
-                <li>une evolution des performances d&apos;un etablissement ;</li>
-                <li>une degradation d&apos;un indicateur technique ;</li>
-                <li>un changement necessitant une verification.</li>
+                <li>an increase or decrease in conversions;</li>
+                <li>a change in advertising costs;</li>
+                <li>a change in local visibility;</li>
+                <li>a change in the performance of a business location;</li>
+                <li>a deterioration in a technical indicator;</li>
+                <li>an unusual variation requiring review.</li>
               </ul>
 
-              <h3>Identifiez vos priorites</h3>
-              <p>Shefar Dashboard rassemble les informations necessaires pour permettre a l&apos;entreprise de distinguer :</p>
+              <h3>Identify Your Priorities</h3>
+              <p>SHEFAR Dashboard brings together the information necessary to help businesses distinguish:</p>
               <ul>
-                <li>ce qui fonctionne ;</li>
-                <li>ce qui evolue ;</li>
-                <li>ce qui necessite une analyse ;</li>
-                <li>ce qui peut etre optimise ;</li>
-                <li>ce qui doit etre traite en priorite.</li>
+                <li>what is performing well;</li>
+                <li>what is changing;</li>
+                <li>what requires further analysis;</li>
+                <li>what can be optimized;</li>
+                <li>what should be prioritized.</li>
               </ul>
             </article>
-          </div>
-        </section>
-
-        <section className="section">
-          <div className="conteneur deux-colonnes">
-            <div>
-              <p className="surtitre">Shefar.Local</p>
-              <h2>Votre presence locale, enfin lisible.</h2>
-              <p>
-                Shefar.Local permet aux entreprises de connecter leurs propres
-                etablissements Google Business Profile afin de suivre leurs
-                informations, leur visibilite et leurs indicateurs de
-                performance depuis le Dashboard Shefar.
-              </p>
-            </div>
-            <div className="arguments">
-              <div className="argument">
-                <span className="argument-puce" aria-hidden="true"></span>
-                <div>
-                  <b>Etablissements</b>
-                  <span>Retrouvez toutes vos fiches et leurs informations au meme endroit.</span>
-                </div>
-              </div>
-              <div className="argument">
-                <span className="argument-puce" aria-hidden="true"></span>
-                <div>
-                  <b>Performance locale</b>
-                  <span>Suivez votre visibilite et vos indicateurs sur chaque etablissement.</span>
-                </div>
-              </div>
-              <div className="argument">
-                <span className="argument-puce" aria-hidden="true"></span>
-                <div>
-                  <b>Suivi centralise</b>
-                  <span>Une seule vue pour l&apos;ensemble de vos points de presence.</span>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
         <section className="section" id="fonctionnement">
           <div className="conteneur">
             <div className="section-entete">
-              <p className="surtitre">Fonctionnement</p>
-              <h2>Une application concue pour centraliser les donnees Google de votre entreprise</h2>
+              <p className="surtitre">How It Works</p>
+              <h2>A Dashboard Designed to Centralize Your Company&apos;s Google Data</h2>
               <p>
-                Shefar Dashboard repond a un besoin concret : eviter que les
-                donnees importantes d&apos;une entreprise restent dispersees
-                entre Google Ads, Google Business Profile, les outils de
-                performance du site et differentes interfaces de reporting.
+                SHEFAR Dashboard addresses a simple problem: important
+                business data is often distributed across Google Ads,
+                Google Business Profile, website-performance tools and
+                multiple reporting interfaces.
               </p>
             </div>
             <div className="arguments">
               <div className="argument">
                 <span className="argument-puce" aria-hidden="true"></span>
                 <div>
-                  <b>1. Connectez vos services Google</b>
-                  <span>L&apos;utilisateur connecte les services qu&apos;il souhaite utiliser.</span>
+                  <b>1. Connect your Google services</b>
+                  <span>You decide which Google services to connect to SHEFAR Dashboard.</span>
                 </div>
               </div>
               <div className="argument">
                 <span className="argument-puce" aria-hidden="true"></span>
                 <div>
-                  <b>2. Recuperation des donnees autorisees</b>
-                  <span>Shefar Dashboard recupere les donnees autorisees via les API correspondantes.</span>
+                  <b>2. Retrieve authorized data</b>
+                  <span>SHEFAR Dashboard retrieves the data you have authorized through the relevant APIs.</span>
                 </div>
               </div>
               <div className="argument">
                 <span className="argument-puce" aria-hidden="true"></span>
                 <div>
-                  <b>3. Centralisation dans votre espace</b>
-                  <span>Les indicateurs sont organises et affiches dans votre tableau de bord.</span>
+                  <b>3. Centralize in your Dashboard</b>
+                  <span>Your key indicators are centralized within your SHEFAR Dashboard account.</span>
                 </div>
               </div>
               <div className="argument">
                 <span className="argument-puce" aria-hidden="true"></span>
                 <div>
-                  <b>4. Suivi et priorisation</b>
-                  <span>Vous suivez vos performances et identifiez vos priorites.</span>
+                  <b>4. Track and prioritize</b>
+                  <span>You monitor your performance, identify important changes and determine your priorities.</span>
                 </div>
               </div>
             </div>
@@ -424,27 +377,25 @@ export default function HomeContent() {
         <section className="section" id="securite">
           <div className="conteneur">
             <div className="encadre">
-              <h3>Vous gardez le controle de vos comptes Google.</h3>
+              <h3>You stay in control of your Google accounts.</h3>
               <p>
-                Shefar utilise OAuth 2.0 pour permettre aux utilisateurs de
-                connecter leurs propres services Google. L&apos;acces est
-                limite aux donnees necessaires aux fonctionnalites activees
-                par l&apos;utilisateur.
+                SHEFAR Dashboard uses OAuth 2.0 to let users connect their
+                own Google services. Access is limited to the data required
+                for the features activated by the user.
               </p>
               <p>
-                Shefar ne demande jamais le mot de passe Google des
-                utilisateurs. Les autorisations peuvent etre revoquees a tout
-                moment depuis leur compte Google. Vous pouvez revoquer les
-                autorisations Google accordees a Shefar Dashboard et demander
-                la suppression de vos donnees conformement a notre politique
-                de confidentialite.
+                SHEFAR Dashboard never asks for your Google password.
+                Permissions can be revoked at any time from your Google
+                Account. You can revoke the Google permissions granted to
+                SHEFAR Dashboard and request deletion of your data in
+                accordance with our Privacy Policy.
               </p>
               <div className="ouverture-actions">
                 <a className="bouton bouton-contour" href="/privacy">
-                  Consulter la Politique de confidentialite
+                  View our Privacy Policy
                 </a>
                 <a className="bouton bouton-contour" href="/terms">
-                  Consulter les Conditions d&apos;utilisation
+                  View our Terms of Service
                 </a>
               </div>
               <p>
@@ -459,8 +410,8 @@ export default function HomeContent() {
           <div className="conteneur">
             <div className="section-entete">
               <p className="surtitre">Integrations</p>
-              <h2>Services pris en charge</h2>
-              <p>Chaque connexion est initiee par l&apos;utilisateur et peut etre retiree a tout moment.</p>
+              <h2>Supported services</h2>
+              <p>Each connection is initiated by the user and can be removed at any time.</p>
             </div>
             <div className="integrations">
               <span className="integration">
