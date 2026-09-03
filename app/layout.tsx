@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import ThemeScript from "@/components/ThemeScript";
+import LanguageScript from "@/components/LanguageScript";
+import LanguageApplyScript from "@/components/LanguageApplyScript";
 import "./globals.css";
 
 const titre = "SHEFAR Dashboard";
@@ -49,8 +51,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
         />
         <ThemeScript />
+        <LanguageScript />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <LanguageApplyScript />
+      </body>
     </html>
   );
 }

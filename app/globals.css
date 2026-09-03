@@ -194,6 +194,28 @@ svg {
   display: block;
 }
 
+.bascule-langue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--bordure-claire);
+  background: transparent;
+  color: var(--texte-doux);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    border-color 0.16s ease,
+    color 0.16s ease;
+}
+.bascule-langue:hover {
+  color: var(--texte);
+  border-color: var(--texte-faible);
+}
+
 .bouton {
   display: inline-flex;
   align-items: center;

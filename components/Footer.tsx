@@ -23,12 +23,14 @@ export default function Footer() {
                 height={26}
               />
             </Link>
-            <p>A clear view of your digital performance.</p>
+            <p data-fr="Une lecture claire de votre performance digitale.">
+              A clear view of your digital performance.
+            </p>
           </div>
 
           <div className="pied-liens">
             <div className="pied-colonne">
-              <h4>Product</h4>
+              <h4 data-fr="Produit">Product</h4>
               <ul>
                 <li>
                   <Link href="/app">SHEFAR Dashboard</Link>
@@ -39,10 +41,14 @@ export default function Footer() {
               <h4>Legal</h4>
               <ul>
                 <li>
-                  <Link href="/privacy">Privacy Policy</Link>
+                  <Link href="/privacy">
+                    <span data-fr="Politique de confidentialité">Privacy Policy</span>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/terms">Terms of Service</Link>
+                  <Link href="/terms">
+                    <span data-fr="Conditions d'utilisation">Terms of Service</span>
+                  </Link>
                 </li>
               </ul>
             </div>

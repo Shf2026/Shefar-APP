@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
+import LanguageToggle from "./LanguageToggle";
 
 export default function Header() {
   return (
@@ -28,9 +29,14 @@ export default function Header() {
           <Link className="lien-masquable" href="/app">
             SHEFAR Dashboard
           </Link>
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/terms">Terms</Link>
+          <Link href="/privacy">
+            <span data-fr="Confidentialité">Privacy</span>
+          </Link>
+          <Link href="/terms">
+            <span data-fr="Conditions">Terms</span>
+          </Link>
         </nav>
+        <LanguageToggle />
         <ThemeToggle />
       </div>
     </header>
