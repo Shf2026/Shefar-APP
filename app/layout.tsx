@@ -4,7 +4,7 @@ import "./globals.css";
 
 const titre = "Shefar Dashboard";
 const description =
-  "Shefar Dashboard centralise les donnees essentielles de votre presence digitale : Google Ads, Analytics, Search Console et Google Business Profile dans une interface unique.";
+  "Centralisez Google Ads, Google Analytics, Google Search Console, Google Business Profile, PageSpeed Insights et Chrome UX Report dans une seule interface de pilotage.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://shefar.fr"),
@@ -30,9 +30,6 @@ export const metadata: Metadata = {
     title: titre,
     description,
     images: ["/logo-sombre.png"],
-  },
-  icons: {
-    icon: "/icon.png",
   },
 };
 

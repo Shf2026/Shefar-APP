@@ -1,0 +1,570 @@
+<title>Shefar Dashboard | Tableau de bord de performance digitale</title> 
+H1 : Shefar Dashboard 
+Shefar Dashboard est une application web de pilotage de la performance digitale destinée aux entreprises. Elle permet de connecter de manière sécurisée plusieurs services Google, notamment Google Ads et Google Business Profile, afin de récupérer uniquement les données autorisées par l’utilisateur via les API Google et de les centraliser dans une interface unique.
+L’application permet ensuite de suivre les principaux indicateurs de performance : campagnes publicitaires, budgets, impressions, clics, coûts, conversions, taux de conversion, données de visibilité locale et informations liées aux établissements Google Business Profile. Ces données sont organisées dans des tableaux de bord lisibles afin de faciliter le suivi des performances et la compréhension de leur évolution.
+L’objectif de Shefar Dashboard est de transformer des données dispersées entre plusieurs plateformes Google en une vision claire et exploitable. L’utilisateur peut ainsi identifier plus rapidement les variations importantes, les points de vigilance, les opportunités et les actions à prioriser pour mieux piloter sa performance digitale.
+Connectez vos services Google à Shefar Dashboard
+Et juste en dessous, en sous-titre :
+Centralisez Google Ads, Google Analytics, Google Search Console, Google Business Profile, PageSpeed Insights et Chrome UX Report dans une seule interface de pilotage.
+
+ Google Ads
+Shefar Dashboard se connecte à Google Ads afin de centraliser les données des comptes et campagnes autorisés par l’utilisateur. L’application permet notamment d’afficher les campagnes, budgets, impressions, clics, coûts, conversions, taux de conversion et autres KPI publicitaires disponibles via les API Google, afin de suivre et analyser les performances depuis une interface unique.
+ Google Analytics
+La connexion à Google Analytics permet à Shefar Dashboard de centraliser les principaux indicateurs liés à l’utilisation et aux performances du site internet. Ces données permettent notamment de suivre l’audience, les sources d’acquisition, les sessions, les événements, les conversions et l’évolution des comportements observés sur le site.
+ Google Search Console
+Shefar Dashboard utilise les données autorisées de Google Search Console pour permettre aux entreprises de suivre leur visibilité dans les résultats de recherche Google. L’application peut notamment présenter les clics organiques, impressions, requêtes de recherche, pages, positions moyennes et taux de clic afin de faciliter le suivi des performances SEO.
+ Google Business Profile
+La connexion à Google Business Profile permet à Shefar Dashboard de centraliser les informations relatives aux établissements de l’entreprise et à leur visibilité locale. Selon les autorisations accordées, l’application peut afficher les établissements accessibles, leurs informations publiques et les indicateurs de performance disponibles afin de suivre la présence locale depuis le Dashboard.
+ PageSpeed Insights & Chrome UX Report
+Shefar Dashboard complète les données marketing avec des indicateurs techniques provenant de Google PageSpeed Insights et du Chrome UX Report (CrUX). Ces services permettent d’analyser la vitesse, les performances des pages, l’expérience utilisateur et les Core Web Vitals, notamment le LCP, l’INP et le CLS, afin d’identifier les problèmes techniques susceptibles d’affecter l’expérience utilisateur et les performances digitales.
+
+
+Étape 1 — Connectez vos comptes et services Google
+Connectez votre entreprise à Shefar Dashboard
+Shefar Dashboard permet à l’utilisateur de connecter les comptes Google nécessaires au fonctionnement des différents modules de l’application.
+La connexion est réalisée via Google OAuth 2.0, le protocole d’autorisation de Google.
+Lorsque vous choisissez de connecter un service Google, vous êtes redirigé vers Google afin de :
+sélectionner votre compte Google ;
+identifier les comptes ou établissements auxquels vous souhaitez donner accès ;
+consulter les autorisations demandées par Shefar Dashboard ;
+accepter ou refuser ces autorisations.
+Shefar Dashboard ne demande, ne collecte et ne stocke jamais votre mot de passe Google.
+L’accès aux données est réalisé à l’aide des autorisations OAuth accordées directement par l’utilisateur.
+
+
+
+
+
+
+
+Google Ads
+La connexion à Google Ads permet à Shefar Dashboard de récupérer les données nécessaires au suivi de vos campagnes publicitaires.
+Selon les données disponibles sur votre compte et les fonctionnalités activées, Shefar Dashboard peut notamment centraliser :
+les comptes Google Ads connectés ;
+les campagnes ;
+les budgets publicitaires ;
+les impressions ;
+les clics ;
+les coûts ;
+les conversions ;
+les taux de conversion ;
+le coût par conversion ;
+les performances des campagnes ;
+l’évolution des principaux indicateurs dans le temps.
+Ces informations permettent à l’utilisateur de retrouver ses principaux KPI Google Ads dans son tableau de bord Shefar Dashboard et de suivre plus facilement l’évolution de ses investissements publicitaires.
+Google Business Profile
+La connexion à Google Business Profile permet de centraliser les informations relatives aux établissements et à leur présence locale sur Google.
+Selon les données disponibles et les modules utilisés, Shefar Dashboard peut notamment exploiter les informations nécessaires pour afficher :
+les établissements associés au compte ;
+les informations de la fiche établissement ;
+les données liées à la visibilité locale ;
+les performances disponibles pour les établissements ;
+les principaux signaux permettant de suivre l’évolution de la présence locale.
+Shefar Dashboard permet ainsi aux entreprises disposant d’un ou plusieurs établissements de retrouver leurs informations locales dans le même environnement que leurs autres indicateurs digitaux.
+Données techniques du site
+Shefar Dashboard peut également intégrer des données techniques permettant d’évaluer les performances d’un site internet.
+Les services utilisés peuvent notamment inclure Google PageSpeed Insights afin de mesurer des indicateurs liés à :
+la performance des pages ;
+la vitesse de chargement ;
+l’expérience utilisateur ;
+les Core Web Vitals et autres métriques techniques disponibles ;
+les éléments techniques pouvant nécessiter une optimisation.
+Ces données viennent compléter les informations marketing afin de fournir une vision plus globale de la performance digitale.
+Pourquoi Shefar Dashboard demande un accès Google
+Les autorisations Google demandées par Shefar Dashboard servent exclusivement à permettre les fonctionnalités activées par l’utilisateur.
+Elles peuvent notamment être nécessaires pour :
+identifier le compte connecté,
+ récupérer les comptes accessibles par l’utilisateur,
+ afficher les données Google Ads,
+ afficher les données Google Business Profile,
+ centraliser les indicateurs dans le dashboard,
+ actualiser les données lorsque l’utilisateur consulte son espace.
+Shefar Dashboard n’accède qu’aux données correspondant aux autorisations accordées par l’utilisateur.
+L’utilisateur peut révoquer l’accès à son compte Google à tout moment depuis les paramètres de sécurité de son compte Google.
+
+Étape 2 — Centralisez, analysez et pilotez vos performances
+Un tableau de bord unique pour vos données digitales
+Une fois les services connectés, Shefar Dashboard centralise les données provenant des différentes sources afin de les rendre plus simples à consulter et à comparer.
+L’application transforme des données réparties entre plusieurs interfaces en une vue structurée permettant à l’entreprise d'accéder rapidement à ses principaux indicateurs.
+Le tableau de bord peut ainsi réunir dans un même environnement :
+données Google Ads ;
+données Google Business Profile ;
+performances du site internet ;
+indicateurs de visibilité ;
+évolution des performances ;
+alertes ;
+opportunités ;
+priorités identifiées.
+Suivez vos KPI Google Ads
+Shefar Dashboard permet de suivre les principaux indicateurs de vos campagnes Google Ads sans devoir analyser chaque campagne séparément dans plusieurs écrans.
+L’utilisateur peut notamment visualiser l’évolution des :
+dépenses publicitaires,
+ clics,
+ impressions,
+ conversions,
+ coûts par conversion,
+ taux de conversion
+ et autres indicateurs disponibles dans les comptes connectés.
+L’objectif est d'aider l’entreprise à identifier rapidement les évolutions significatives de ses campagnes et les éléments nécessitant une analyse complémentaire.
+Suivez votre visibilité locale
+Pour les entreprises disposant d’établissements physiques, Shefar Dashboard permet également de centraliser les informations provenant de Google Business Profile.
+Cette vue permet de rapprocher les données de visibilité locale des autres indicateurs digitaux de l’entreprise et de suivre plus facilement les évolutions de ses établissements.
+Analysez les performances du site
+Les informations techniques peuvent être regroupées avec les données marketing afin d’aider l’utilisateur à comprendre si certaines performances digitales peuvent être affectées par l’expérience proposée sur le site.
+Shefar Dashboard peut par exemple faire apparaître des indicateurs liés aux performances techniques des pages afin de faciliter l’identification des points nécessitant une optimisation.
+Identifiez les variations importantes
+Shefar Dashboard ne se limite pas à afficher des chiffres.
+L’application organise les données afin de faciliter l’identification des changements importants :
+une hausse ou une baisse des conversions,
+ une évolution du coût publicitaire,
+ une variation de la visibilité,
+ une évolution des performances d'un établissement,
+ une dégradation d'un indicateur technique,
+ un changement nécessitant une vérification.
+L’objectif est de permettre à l’utilisateur de savoir rapidement où porter son attention.
+Identifiez vos priorités
+Shefar Dashboard rassemble les informations nécessaires pour permettre à l’entreprise de distinguer :
+ce qui fonctionne,
+ ce qui évolue,
+ ce qui nécessite une analyse,
+ ce qui peut être optimisé,
+ et ce qui doit être traité en priorité.
+L’application apporte ainsi une lecture structurée des données disponibles afin de faciliter le pilotage de la performance digitale.
+
+Une application conçue pour centraliser les données Google de votre entreprise
+Shefar Dashboard répond à un besoin concret : éviter que les données importantes d’une entreprise restent dispersées entre Google Ads, Google Business Profile, les outils de performance du site et différentes interfaces de reporting.
+L’utilisateur connecte les services qu’il souhaite utiliser.
+Shefar Dashboard récupère les données autorisées via les API correspondantes.
+Les informations sont ensuite organisées et affichées dans son tableau de bord afin de faciliter leur consultation et leur analyse.
+Le fonctionnement peut être résumé simplement :
+1. Vous connectez vos services Google.
+ 2. Shefar Dashboard récupère les données autorisées.
+ 3. Les indicateurs sont centralisés dans votre espace.
+ 4. Vous suivez vos performances et identifiez vos priorités.
+
+Contrôle et confidentialité des données
+Vous conservez le contrôle des services connectés à Shefar Dashboard.
+Les données Google accessibles par l’application sont utilisées pour fournir les fonctionnalités demandées par l’utilisateur : connexion des services, récupération des indicateurs, affichage des données, analyse et fonctionnement du tableau de bord.
+Vous pouvez révoquer les autorisations Google accordées à Shefar Dashboard et demander la suppression de vos données conformément à notre politique de confidentialité.
+Consulter la Politique de confidentialité
+Consulter les Conditions d’utilisation
+Contact : support@shefar.fr
+
+Shefar Dashboard
+Une application web pour connecter vos services Google, centraliser vos données digitales, suivre vos KPI et piloter plus clairement votre performance.
+Cette version est volontairement explicite sur le nom exact de l’application, sa finalité et ses fonctionnalités, ce qui correspond directement aux critères actuels de Google pour une homepage OAuth : identifier clairement l’application et décrire concrètement son fonctionnement.
+
+________________________________________________________________________________
+Politique de confidentialité — Shefar Dashboard
+Dernière mise à jour : 2 septembre 2026
+La présente Politique de confidentialité explique de manière détaillée comment Shefar Dashboard collecte, accède, utilise, stocke, protège, partage et supprime les données lorsque vous utilisez notre application, notamment lorsque vous connectez un compte ou un service Google.
+Shefar Dashboard est une application web destinée aux entreprises. Elle permet de connecter certains services Google, notamment Google Ads et Google Business Profile, afin de centraliser des données de performance dans un tableau de bord, de suivre des indicateurs, d'identifier des variations et de faciliter le pilotage de la performance digitale.
+Cette politique s'applique au site et à l'application Shefar Dashboard accessibles notamment depuis shefar.fr.
+
+1. Responsable du traitement
+Le service Shefar Dashboard est exploité par Shefar.
+Pour toute question concernant la confidentialité, l'utilisation de vos données, l'accès aux données Google ou une demande de suppression :
+E-mail : support@shefar.fr
+Les demandes relatives à l'exercice de vos droits ou à la suppression de données peuvent être adressées à cette même adresse.
+
+2. Quelles données Shefar Dashboard peut collecter
+Les données traitées dépendent des fonctionnalités utilisées et des services que vous choisissez volontairement de connecter.
+Shefar Dashboard ne cherche pas à collecter des données sans rapport avec le fonctionnement de l'application.
+2.1 Données de compte Shefar Dashboard
+Lorsque vous utilisez Shefar Dashboard, nous pouvons traiter certaines informations nécessaires à la création, à l'administration et à la sécurisation de votre espace utilisateur, telles que :
+nom et prénom ;
+adresse e-mail professionnelle ;
+société ou organisation associée au compte ;
+identifiant interne du compte ;
+date de création du compte ;
+paramètres et préférences du compte ;
+services connectés ;
+informations techniques nécessaires à la sécurité et à l'authentification.
+Ces informations permettent notamment d'identifier l'utilisateur, de sécuriser son espace et de lui fournir les fonctionnalités auxquelles il a accès.
+
+3. Connexion avec Google OAuth 2.0
+Shefar Dashboard utilise Google OAuth 2.0 pour permettre aux utilisateurs d'autoriser l'accès à certains services Google.
+Lors de la connexion, l'utilisateur est redirigé vers Google.
+Google présente alors :
+le nom de l'application Shefar Dashboard ;
+le compte Google utilisé ;
+les autorisations demandées ;
+les services auxquels Shefar Dashboard souhaite accéder.
+L'utilisateur choisit lui-même d'autoriser ou de refuser cet accès.
+Shefar Dashboard ne demande, ne collecte et ne stocke jamais le mot de passe de votre compte Google.
+L'authentification et l'autorisation sont gérées directement par Google.
+
+4. Données Google auxquelles Shefar Dashboard peut accéder
+Lorsque vous connectez un service Google, Shefar Dashboard peut accéder uniquement aux données nécessaires aux fonctionnalités activées et correspondant aux autorisations que vous avez expressément accordées.
+4.1 Informations relatives au compte Google
+Lorsque cela est nécessaire au fonctionnement de l'authentification, Shefar Dashboard peut recevoir des informations permettant d'identifier le compte connecté, par exemple :
+adresse e-mail du compte Google ;
+identifiant du compte ;
+informations de profil de base disponibles dans le cadre de l'autorisation accordée ;
+comptes ou ressources auxquels l'utilisateur est autorisé à accéder.
+Ces informations servent notamment à associer correctement les services Google au compte Shefar Dashboard concerné.
+
+5. Données Google Ads
+Lorsque l'utilisateur connecte un compte Google Ads, Shefar Dashboard peut accéder aux données nécessaires à l'affichage et à l'analyse des performances publicitaires.
+Selon les fonctionnalités activées et les données disponibles dans le compte Google Ads, celles-ci peuvent comprendre notamment :
+identifiant du compte Google Ads ;
+Customer ID ;
+nom du compte ;
+campagnes ;
+groupes de campagnes ou groupes d'annonces ;
+annonces lorsque nécessaire à l'affichage des performances ;
+budgets ;
+dépenses publicitaires ;
+coûts ;
+impressions ;
+clics ;
+taux de clic ;
+conversions ;
+valeur des conversions lorsqu'elle est disponible ;
+taux de conversion ;
+coût par conversion ;
+périodes et dates associées aux performances ;
+statuts des campagnes ;
+autres indicateurs de performance nécessaires au fonctionnement du tableau de bord.
+Ces données sont utilisées pour permettre à l'utilisateur de consulter et d'analyser ses propres performances Google Ads dans Shefar Dashboard.
+
+6. Données Google Business Profile
+Lorsque l'utilisateur connecte Google Business Profile, Shefar Dashboard peut accéder aux informations nécessaires à la gestion et à l'analyse de la présence locale de l'entreprise.
+Selon les autorisations accordées et les données disponibles, cela peut notamment comprendre :
+comptes Google Business Profile accessibles ;
+établissements associés au compte ;
+identifiants d'établissements ;
+nom commercial ;
+adresse de l'établissement ;
+coordonnées publiques ;
+catégories d'activité ;
+horaires ;
+URL du site internet ;
+informations publiques de la fiche établissement ;
+données et indicateurs de performance rendus disponibles par Google pour les établissements ;
+informations nécessaires à l'identification et à l'affichage des établissements dans Shefar Dashboard.
+Shefar Dashboard utilise ces informations afin de centraliser et présenter la visibilité locale de l'entreprise dans son espace utilisateur.
+
+7. Données provenant d'autres services Google
+Shefar Dashboard peut intégrer d'autres services Google lorsque ceux-ci sont nécessaires à une fonctionnalité clairement proposée à l'utilisateur.
+Dans ce cas :
+l'utilisateur est informé de la connexion ;
+les autorisations correspondantes sont présentées par Google ;
+seules les données nécessaires à la fonctionnalité sont demandées ;
+les données sont utilisées uniquement pour fournir la fonctionnalité concernée.
+Shefar applique le principe de minimisation des autorisations et ne demande pas l'accès à des données Google uniquement dans l'éventualité d'une utilisation future.
+Google exige que les applications demandent uniquement les permissions nécessaires aux fonctionnalités réellement proposées.
+
+8. Google PageSpeed Insights et données techniques
+Shefar Dashboard peut également analyser des informations techniques relatives aux pages web, notamment au moyen de services tels que Google PageSpeed Insights.
+Ces analyses peuvent porter sur :
+performances d'une page ;
+temps de chargement ;
+Core Web Vitals ;
+indicateurs d'expérience utilisateur ;
+métriques techniques ;
+opportunités d'optimisation.
+Lorsque ces informations sont obtenues à partir d'une URL publique et ne nécessitent pas l'accès à des données privées d'un compte Google, elles ne sont pas traitées comme des données Google OAuth privées.
+
+9. Pourquoi Shefar Dashboard utilise les données Google
+Les données obtenues via les API Google sont utilisées exclusivement pour fournir ou améliorer les fonctionnalités visibles de Shefar Dashboard demandées par l'utilisateur.
+Elles peuvent notamment être utilisées pour :
+connecter le compte Google de l'utilisateur ;
+identifier les comptes Google Ads accessibles ;
+identifier les établissements Google Business Profile accessibles ;
+récupérer les données autorisées ;
+afficher ces données dans Shefar Dashboard ;
+centraliser plusieurs indicateurs dans une interface unique ;
+calculer des indicateurs de performance ;
+comparer les résultats entre différentes périodes ;
+suivre l'évolution des campagnes ;
+suivre la visibilité locale ;
+identifier des variations significatives ;
+générer des alertes ou priorités à partir des données de l'utilisateur ;
+présenter des analyses et synthèses directement dans Shefar Dashboard ;
+sécuriser et maintenir la connexion avec les services Google ;
+permettre l'actualisation des informations lorsque nécessaire.
+Les données Google ne sont pas utilisées à des fins étrangères au fonctionnement de Shefar Dashboard.
+Cette utilisation est conforme au principe Google de Limited Use, qui exige que les données obtenues via les API servent aux fonctionnalités visibles et demandées par l'utilisateur.
+
+10. Ce que Shefar ne fait pas avec les données Google
+Shefar ne vend pas les données Google des utilisateurs.
+Shefar ne loue pas les données Google des utilisateurs.
+Shefar ne commercialise pas les données Google des utilisateurs auprès de courtiers en données.
+Shefar n'utilise pas les données Google obtenues via les API pour créer des profils publicitaires indépendants du service demandé.
+Shefar n'utilise pas ces données pour cibler des utilisateurs avec de la publicité extérieure aux fonctionnalités de Shefar Dashboard.
+Shefar ne transfère pas les données Google à des tiers pour leur propre utilisation commerciale.
+Shefar ne permet pas à des tiers d'utiliser les données Google des utilisateurs pour effectuer de la surveillance.
+Shefar n'accède pas à davantage de données que nécessaire au fonctionnement des fonctionnalités proposées.
+
+11. Intelligence artificielle et données Google
+Lorsque Shefar Dashboard utilise des fonctionnalités d'analyse automatisée ou d'intelligence artificielle pour présenter des synthèses, alertes, opportunités ou priorités à l'utilisateur, l'utilisation des données reste limitée à la fourniture des fonctionnalités de Shefar Dashboard.
+Les données personnelles obtenues via les API Google ne sont pas utilisées pour développer, entraîner ou améliorer des modèles d'intelligence artificielle ou de machine learning généralistes ou non personnalisés.
+Cette précision est particulièrement importante dans le cadre des exigences actuelles de Google concernant l'utilisation de données provenant des API Google dans des fonctionnalités d'IA ou de machine learning.
+
+12. Base juridique du traitement
+Lorsque la réglementation européenne relative à la protection des données s'applique, les traitements peuvent notamment reposer sur :
+L'exécution du service demandé par l'utilisateur
+ Lorsque le traitement est nécessaire pour fournir Shefar Dashboard et les fonctionnalités souscrites.
+Le consentement ou l'autorisation de l'utilisateur
+ Notamment lorsqu'un utilisateur choisit volontairement de connecter un service Google par OAuth 2.0.
+L'intérêt légitime de Shefar
+ Pour certaines opérations strictement nécessaires à la sécurité, à la prévention de la fraude, au maintien du service et à l'amélioration de sa fiabilité.
+Les obligations légales
+ Lorsque certaines données doivent être conservées ou communiquées en application d'une obligation légale.
+
+13. Jetons OAuth et autorisations Google
+Après l'autorisation de l'utilisateur, Google peut fournir à Shefar Dashboard des jetons techniques permettant à l'application d'accéder aux données autorisées.
+Ces jetons peuvent notamment permettre :
+de maintenir la connexion avec un service Google ;
+d'éviter de demander une nouvelle autorisation à chaque consultation ;
+d'actualiser les données lorsque la fonctionnalité le nécessite.
+Ces jetons sont considérés comme des données sensibles d'authentification.
+Ils font l'objet de mesures de sécurité renforcées et ne sont pas volontairement exposés dans l'interface utilisateur, dans les journaux publics ou dans le code source accessible publiquement.
+
+14. Limitation des accès
+Les accès aux données sont limités aux systèmes et personnes ayant besoin d'y accéder pour :
+fournir le service ;
+administrer l'infrastructure ;
+assurer la sécurité ;
+résoudre un incident technique ;
+fournir une assistance demandée par l'utilisateur ;
+respecter une obligation légale.
+Les données provenant des API Google ne sont pas librement accessibles aux employés, prestataires ou développeurs.
+Un accès humain à des données Google n'intervient que lorsque cela est nécessaire et autorisé, notamment pour assurer le support demandé par l'utilisateur, résoudre un incident de sécurité ou respecter une obligation légale.
+Les exigences Google Limited Use imposent également des restrictions importantes sur l'accès humain aux données provenant des API.
+
+15. Stockage des données
+Shefar Dashboard peut stocker les données strictement nécessaires au fonctionnement du service, notamment afin :
+d'éviter des appels API inutiles ;
+de permettre l'affichage du tableau de bord ;
+de conserver les indicateurs historiques nécessaires au suivi des performances ;
+d'assurer la continuité du service ;
+de permettre la comparaison entre différentes périodes ;
+de conserver les paramètres de connexion.
+Les données sont stockées dans l'infrastructure technique utilisée par Shefar et protégées par des mesures adaptées à leur sensibilité.
+
+16. Mesures de sécurité
+Shefar met en œuvre des mesures techniques et organisationnelles destinées à protéger les données contre :
+l'accès non autorisé ;
+la divulgation ;
+la modification ;
+la perte ;
+la destruction ;
+l'utilisation abusive.
+Ces mesures peuvent notamment comprendre :
+authentification des utilisateurs ;
+gestion différenciée des droits d'accès ;
+chiffrement des communications via HTTPS/TLS ;
+contrôle des accès aux serveurs ;
+séparation entre comptes administrateurs, développeurs et comptes techniques ;
+protection des secrets et variables d'environnement ;
+restrictions d'accès aux bases de données ;
+journalisation de certains événements sensibles ;
+sauvegardes ;
+surveillance de l'infrastructure ;
+mécanismes de détection des incidents ;
+protection des services exposés publiquement.
+Aucun système ne peut cependant garantir un niveau de sécurité absolu.
+
+17. Partage des données
+Shefar ne partage les données Google qu'avec les prestataires techniques strictement nécessaires au fonctionnement de Shefar Dashboard, lorsque ce partage est nécessaire à la fourniture du service et soumis à des obligations de confidentialité et de sécurité.
+Cela peut notamment concerner des prestataires intervenant pour :
+l'hébergement ;
+la sécurité réseau ;
+le stockage ;
+la maintenance technique ;
+les services d'infrastructure.
+Les données ne sont pas communiquées à ces prestataires pour qu'ils les utilisent à leurs propres fins commerciales.
+Google autorise les transferts de données uniquement dans certaines circonstances précises, notamment lorsque ceux-ci sont nécessaires à la fourniture d'une fonctionnalité visible et demandée par l'utilisateur.
+
+18. Absence de vente des données
+Shefar ne vend aucune donnée personnelle ni aucune donnée obtenue via les API Google.
+Les données ne constituent pas un produit commercialisé par Shefar.
+Le modèle de Shefar Dashboard repose sur la fourniture de services et fonctionnalités de pilotage digital aux entreprises, et non sur la commercialisation des données de ses utilisateurs.
+
+19. Conservation des données
+Les données sont conservées uniquement pendant la durée nécessaire :
+à la fourniture de Shefar Dashboard ;
+à l'exécution des fonctionnalités demandées ;
+au maintien de l'historique nécessaire au tableau de bord ;
+au respect des obligations légales applicables ;
+au traitement d'un éventuel litige ;
+à la sécurité de l'infrastructure.
+Lorsque les données ne sont plus nécessaires, elles sont supprimées ou anonymisées selon leur nature et les obligations applicables.
+
+20. Déconnexion d'un compte Google
+L'utilisateur peut déconnecter un service Google de Shefar Dashboard.
+La déconnexion empêche Shefar Dashboard de continuer à utiliser l'autorisation concernée pour accéder aux nouvelles données du service déconnecté.
+L'utilisateur peut également révoquer directement l'autorisation accordée à Shefar Dashboard depuis les paramètres de sécurité de son compte Google.
+La révocation des autorisations Google ne signifie pas nécessairement la suppression immédiate de toutes les données déjà enregistrées dans Shefar Dashboard lorsqu'une conservation est encore légitimement nécessaire.
+L'utilisateur peut demander leur suppression conformément à la section suivante.
+
+21. Suppression des données
+L'utilisateur peut demander la suppression des données associées à son compte Shefar Dashboard.
+Pour effectuer une demande :
+support@shefar.fr
+La demande devra permettre à Shefar d'identifier le compte concerné.
+Lorsque la demande est valide et qu'aucune obligation légale ne justifie une conservation supplémentaire, Shefar procède à la suppression ou à l'anonymisation des données concernées dans les systèmes actifs dans un délai raisonnable.
+Les copies contenues dans des sauvegardes peuvent être supprimées progressivement selon le cycle normal de rotation des sauvegardes, sous réserve des obligations légales applicables et à condition qu'elles ne soient pas réintroduites dans les systèmes actifs.
+
+22. Révocation des autorisations Google
+L'utilisateur garde le contrôle des autorisations Google accordées à Shefar Dashboard.
+Il peut notamment :
+déconnecter le service depuis Shefar Dashboard lorsque cette fonctionnalité est disponible ;
+accéder aux paramètres de sécurité de son compte Google ;
+retirer l'accès accordé à Shefar Dashboard.
+Après révocation, Shefar Dashboard ne peut plus utiliser le jeton concerné pour obtenir de nouvelles données via les API Google.
+
+23. Droits des utilisateurs
+Lorsque la réglementation applicable le prévoit, vous pouvez disposer notamment des droits suivants :
+droit d'accès ;
+droit de rectification ;
+droit à l'effacement ;
+droit à la limitation du traitement ;
+droit d'opposition ;
+droit à la portabilité dans les cas prévus par la loi ;
+droit de retirer votre consentement lorsqu'un traitement repose sur celui-ci ;
+droit de déposer une réclamation auprès d'une autorité compétente.
+Pour exercer l'un de ces droits :
+support@shefar.fr
+
+24. Données concernant des tiers
+Lorsqu'un utilisateur connecte un compte professionnel contenant des informations relatives à une organisation, des établissements ou d'autres utilisateurs, il lui appartient de s'assurer qu'il dispose des droits nécessaires pour connecter ce compte et utiliser ces données dans Shefar Dashboard.
+L'utilisateur ne doit pas utiliser Shefar Dashboard afin d'accéder à des données auxquelles il n'est pas autorisé à accéder.
+
+25. Journaux techniques et sécurité
+Pour assurer la sécurité et le fonctionnement du service, Shefar peut conserver certaines informations techniques telles que :
+date et heure de connexion ;
+adresse IP ;
+type de navigateur ;
+erreurs applicatives ;
+événements de sécurité ;
+tentatives d'accès ;
+journaux nécessaires au diagnostic technique.
+Ces données sont utilisées notamment pour :
+assurer la sécurité ;
+prévenir les abus ;
+diagnostiquer les incidents ;
+protéger les comptes utilisateurs ;
+maintenir la disponibilité de Shefar Dashboard.
+
+26. Cookies et stockage local
+Shefar Dashboard peut utiliser des cookies ou mécanismes de stockage technique strictement nécessaires pour :
+maintenir une session utilisateur ;
+assurer l'authentification ;
+sécuriser la navigation ;
+mémoriser certaines préférences ;
+assurer le bon fonctionnement de l'application.
+Lorsque des cookies non strictement nécessaires sont utilisés, ils sont soumis aux règles applicables en matière d'information et de consentement.
+
+27. Transferts internationaux
+Certains prestataires techniques utilisés pour fournir Shefar Dashboard peuvent traiter des données depuis différents pays.
+Lorsque la réglementation l'exige, Shefar veille à ce que ces transferts reposent sur un mécanisme juridique approprié et sur des garanties adaptées au niveau de protection requis.
+
+28. Mineurs
+Shefar Dashboard est un service professionnel destiné aux entreprises et à leurs représentants.
+Il n'est pas conçu comme un service destiné aux enfants.
+Shefar ne cherche pas volontairement à collecter des données personnelles concernant des mineurs dans le cadre de l'utilisation normale de Shefar Dashboard.
+
+29. Google API Services User Data Policy
+L'utilisation par Shefar Dashboard des informations reçues des API Google respecte la Google API Services User Data Policy, y compris les exigences de Limited Use.
+Cela signifie notamment que l'utilisation des données Google est limitée aux fonctionnalités visibles et demandées par l'utilisateur et que leur transfert, leur utilisation publicitaire et leur accès humain sont strictement encadrés.
+Google exige expressément qu'une politique de confidentialité explique de manière complète comment une application accède, utilise, stocke ou partage les données Google des utilisateurs.
+
+30. Limited Use
+Shefar Dashboard's use and transfer of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+En particulier :
+les données sont utilisées uniquement pour fournir ou améliorer les fonctionnalités visibles de Shefar Dashboard ;
+elles ne sont pas vendues ;
+elles ne sont pas transférées à des tiers à des fins publicitaires ;
+elles ne sont pas utilisées pour créer des bases de données commerciales indépendantes ;
+l'accès humain est limité aux situations autorisées ;
+les données ne sont pas utilisées pour entraîner des modèles d'IA généralistes ou non personnalisés.
+
+31. Modification de cette Politique de confidentialité
+Cette politique peut évoluer afin de tenir compte :
+de nouvelles fonctionnalités ;
+de modifications réglementaires ;
+de changements concernant les API Google ;
+de nouvelles pratiques de sécurité ;
+de changements dans la manière dont les données sont traitées.
+Lorsque la manière dont Shefar utilise les données Google change de manière substantielle, la politique sera mise à jour et les utilisateurs seront informés lorsque cela est nécessaire.
+Google demande également que les utilisateurs soient informés lorsqu'une application modifie la manière dont elle utilise leurs données Google.
+
+32. Contact
+Pour toute question concernant :
+cette Politique de confidentialité ;
+vos données personnelles ;
+les données provenant de Google ;
+les autorisations OAuth ;
+la suppression de vos données ;
+la révocation d'un accès ;
+la sécurité de votre compte ;
+vous pouvez contacter :
+Shefar
+ E-mail : support@shefar.fr
+ Site : shefar.fr
+
+________________________________________________________________________________
+Bonjour Kevin,
+
+Je vous informe qu’un problème de routage existait entre les versions :
+
+https://www.shefar.fr
+
+et
+
+https://shefar.fr
+
+Le comportement était incohérent :
+
+https://www.shefar.fr/app fonctionnait correctement, alors que https://shefar.fr/app chargeait la page sans les styles et certaines ressources, ce qui donnait l’impression que le site était cassé.
+
+Par ailleurs, https://www.shefar.fr/ renvoyait une erreur 404 alors que la version sans www était celle que nous utilisons comme domaine principal.
+
+Le problème provenait du fait que les deux hostnames n’étaient pas normalisés de manière cohérente au niveau Cloudflare. Les ressources et les règles d’accès ne se comportaient donc pas de la même manière selon que l’utilisateur arrivait par www.shefar.fr ou par shefar.fr.
+
+J’ai donc corrigé cela en définissant désormais shefar.fr comme domaine canonique unique.
+
+Une redirection permanente Cloudflare a été mise en place :
+
+https://www.shefar.fr/*
+→ https://shefar.fr/*
+
+avec conservation du chemin et des paramètres d’URL.
+
+Exemples :
+
+www.shefar.fr/app → shefar.fr/app
+www.shefar.fr/privacy → shefar.fr/privacy
+www.shefar.fr/terms → shefar.fr/terms
+
+Cela permet maintenant d’avoir un seul hostname de référence et d’éviter que les règles Cloudflare Access, les assets Next.js ou les futures configurations SEO/OAuth se comportent différemment selon le domaine utilisé.
+
+À partir de maintenant, merci d’utiliser systématiquement :
+
+https://shefar.fr
+
+comme domaine principal dans les configurations, liens, variables d’environnement, callbacks, documentation et futurs déploiements.
+
+La version www ne doit plus être utilisée comme environnement distinct : elle sert uniquement de point d’entrée redirigé vers le domaine principal.
+
+Merci de respecter cette convention afin d’éviter qu’une divergence entre www et non-www soit recréée à l’avenir.
+
+________________________________________________________________________________
+Bonjour Kevin,
+
+Merci de mettre à jour en priorité les pages :
+
+https://shefar.fr/app
+https://shefar.fr/privacy
+
+Je vous joins un document avec les nouveaux contenus à intégrer.
+
+Merci de bien conserver les URLs actuelles et de faire apparaître exactement le nom Shefar Dashboard sur la page /app.
+
+La page /app doit rester accessible publiquement sans authentification.
+
+Merci de me confirmer dès que c’est en ligne afin que je puisse relancer la vérification Google.
+________________________________________________________________________________
