@@ -41,3 +41,22 @@ yarn-error.log*
 next-env.d.ts
 AGENTS.md
 CLAUDE.md
+
+# reference/mockup files (source material, not app code — see CLAUDE.md)
+*.zip
+basic.html
+index.html
+privacy.html
+terms.html
+interface-shefar-1.html
+interface-shefar-2.html
+interface-shefar-3.html
+interface-shefar-4.html
+feuillederoute.txt
+frontend.txt
+nouveau.txt
+recap-deploiement.txt
+explication-probleme-deploiement.txt
+message-cloudflare-racine.txt
+procedure.txt
+.playwright-mcp/
